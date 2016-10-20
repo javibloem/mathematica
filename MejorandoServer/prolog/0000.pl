@@ -10,3 +10,4 @@
 pr(0000-1, [color, caballo, blanco, 'Simón'], [blanco], 20/20, [anonimo]). 
 pr(0000-2, [a*(b+c), =], [a*b+a*c], 100/100, [algebras]). 
 pr(0000-3, [A*(B+C), =], [A*B+A*C], 100/100, [algebras]). 
+pr(0000-3,['Determine si los conjuntos A y B son iguales. A = {1,2} B = {0,3,4}'],[distintos],20/20,[anonimo]).

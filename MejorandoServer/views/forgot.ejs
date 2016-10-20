@@ -1,22 +1,10 @@
-<!-- views/login.ejs -->
-<!doctype html>
-<html>
-<head>
-    <title>Demo Autenticación de Usuario</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    
-    <style>
-        body        { padding-top:80px; }
-    </style>
-</head>
-<body class>
+<% include header %>
+
 <div class="container">
 
 <div class="col-sm-6 col-sm-offset-3">
 
-    <h1><span class="fa fa-sign-in"></span> RECUPERANDO CONTRASENIA </h1>
+    <h1><span class="fa fa-sign-in"></span> RECUPERANDO CONTRASE&Ntilde;A </h1>
 
     <!-- muestra los mensajes que vengan de la autenticacion -->
     <% if (messages.error) { %>
@@ -47,5 +35,4 @@
 </div>
 
 </div>
-</body>
-</html>
+<% include footer %>

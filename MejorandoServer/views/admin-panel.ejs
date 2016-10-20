@@ -1,0 +1,30 @@
+<% include header %>
+<section>
+	<div class="text-center">
+		<h1 class="bree verde grande"> <%=  "Mathematica" %> </h1>
+		<p class="bree gris"><%= "Mathematica subtitle" %></p>
+
+	</div>
+	<div class="container">
+		<section>
+			<form action="/admin/createContent" method="post" target="_self">
+				<label>Titulo</label>
+				<input type="text" name="title" value="<%= title %>" id="title">
+				<label>Subtitulo</label>
+				<input type="text" name="subtitle" value="<%= subTitle %>" id="subtitle">
+				<textarea id="textContent" name="textContent"><%= textContent %></textarea>
+				<button>Guardar</button>
+			</form>
+		</section>
+	</div>
+</section>
+<% for (var i = 0; i < contents.length; i++) { -%>
+	<a href="/admin/edit/<%= contents[i]._id %>"><%= contents[i].title %></a>
+<% } -%>
+<script type="text/javascript" src="/js/tinymce/tinymce.min.js"></script>
+<script>
+	tinymce.init({
+		selector: '#textContent'
+	});
+</script>
+<% include footer %>

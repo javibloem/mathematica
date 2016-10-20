@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="382" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.0.1" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:es-VE; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.date_last_changed">2010-05-11T14:40:27</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.creator">Jacinto Davila</m>
+<m key="dc.date">2006-09-27T15:17:32</m>
+<m key="dc.format">application/x-abiword</m>
+<m key="dc.language">en-GB</m>
+<m key="dc.title">Example ODT Document</m>
+<m key="meta:editing-cycles">108</m>
+<m key="meta:editing-duration">PT13H52M30S</m>
+</metadata>
+<rdf>
+</rdf>
+<styles>
+<s type="P" name="Heading 1" basedon="Heading" followedby="Text body" props="font-weight:bold; font-size:16pt"/>
+<s type="P" name="Heading" basedon="Normal" followedby="Text body" props="margin-top:0.1665in; keep-with-next:yes; margin-bottom:0.0835in; font-family:Arial; font-size:14pt"/>
+<s type="P" name="Normal" props="lang:en-GB; font-size:12pt; dom-dir:ltr; font-family:Times New Roman; color:#000000"/>
+<s type="P" name="Text body" basedon="Normal" followedby="Text body" props="margin-bottom:0.0835in; margin-top:0in"/>
+<s type="P" name="Forrest: Source" followedby="Forrest: Source" props="border-merge:false; bot-space:0.0193in; shading-pattern:1; bot-style:1; bot-thickness:0.0138in; font-size:10.5pt; right-space:0.0193in; bot-color:#000000; left-thickness:0.0138in; top-thickness:0.0138in; right-style:1; right-thickness:0.0138in; left-color:#000000; top-space:0.0193in; right-color:#000000; top-style:1; bgcolor:#cccccc; shading-foreground-color:#cccccc; left-style:1; top-color:#000000; left-space:0.0193in; font-family:Courier New"/>
+<s type="P" name="Preformatted Text" basedon="Normal" followedby="Preformatted Text" props="margin-top:0in; font-size:10pt; margin-bottom:0in; font-family:DejaVu Sans Mono"/>
+<s type="P" name="Horizontal Line" basedon="Normal" followedby="Text body" props="margin-top:0in; bot-style:1; bot-space:0in; bot-thickness:0.0154in; margin-bottom:0.1965in; border-merge:false; top-space:0in; bot-color:#808080; right-space:0in; left-space:0in; font-size:6pt"/>
+<s type="P" name="Heading 2" basedon="Heading" followedby="Text body" props="font-size:14pt; font-weight:bold; font-style:italic"/>
+<s type="P" name="Footnote" basedon="Normal" followedby="Footnote" props="text-indent:-0.1965in; font-size:10pt; margin-left:0.1965in; margin-right:0in"/>
+<s type="C" name="Bullet Symbols_text" followedby="Bullet Symbols_text" props="font-family:StarSymbol; font-size:9pt"/>
+<s type="C" name="Endnote Symbol (user)_text" followedby="Endnote Symbol (user)_text" props="lang:en-US; font-size:12pt"/>
+<s type="C" name="Footnote Symbol (user)_text" followedby="Footnote Symbol (user)_text" props="lang:en-US; font-size:12pt"/>
+<s type="C" name="Footnote anchor_text" followedby="Footnote anchor_text" props="text-position:superscript"/>
+<s type="C" name="Forrest: Author_text" followedby="Forrest: Author_text" props="bgcolor:#ffcc99; shading-foreground-color:#ffcc99; shading-pattern:1; font-size:10pt; font-style:italic"/>
+<s type="P" name="Forrest: Fixme" followedby="Normal" props="right-color:#cccc00; bot-space:0.0193in; bot-style:1; top-color:#cccc00; shading-pattern:1; bot-thickness:0.0138in; left-thickness:0.0138in; right-thickness:0.0138in; left-color:#cccc00; top-space:0.0193in; bgcolor:#ffff99; top-thickness:0.0138in; top-style:1; right-style:1; shading-foreground-color:#ffff99; bot-color:#cccc00; right-space:0.0193in; left-space:0.0193in; left-style:1"/>
+<s type="C" name="Forrest: Label_text" followedby="Forrest: Label_text" props="bgcolor:#ffffcc; shading-foreground-color:#ffffcc; shading-pattern:1; font-size:10pt; font-style:italic"/>
+<s type="P" name="Forrest: Note" followedby="Normal" props="right-color:#0047ff; bot-space:0.0193in; bot-style:1; top-color:#0047ff; shading-pattern:1; bot-thickness:0.0138in; left-thickness:0.0138in; right-thickness:0.0138in; left-color:#0047ff; top-space:0.0193in; bgcolor:#0099ff; top-thickness:0.0138in; top-style:1; right-style:1; shading-foreground-color:#0099ff; bot-color:#0047ff; right-space:0.0193in; left-space:0.0193in; left-style:1"/>
+<s type="P" name="Forrest: Warning" followedby="Normal" props="right-color:#ff0000; bot-space:0.0193in; bot-style:1; top-color:#ff0000; shading-pattern:1; bot-thickness:0.0138in; left-thickness:0.0138in; right-thickness:0.0138in; left-color:#ff0000; top-space:0.0193in; bgcolor:#ff8080; top-thickness:0.0138in; top-style:1; right-style:1; shading-foreground-color:#ff8080; bot-color:#ff0000; right-space:0.0193in; left-space:0.0193in; left-style:1"/>
+<s type="P" name="Heading 3" basedon="Heading" followedby="Text body" props="font-weight:bold; font-size:14pt"/>
+<s type="C" name="Internet link (user)_text" followedby="Internet link (user)_text" props="lang:en-US; font-size:12pt; color:#000080; text-decoration:underline"/>
+<s type="C" name="Internet link_text" followedby="Internet link_text" props="text-decoration:underline; color:#000080"/>
+<s type="P" name="List Contents" basedon="Normal" followedby="List Contents" props="text-indent:0in; margin-left:0.3937in; margin-right:0in"/>
+<s type="C" name="Strong Emphasis_text" followedby="Strong Emphasis_text" props="font-weight:bold"/>
+<s type="P" name="Table Heading" basedon="Normal" followedby="Table Heading" props="text-align:center; font-weight:bold"/>
+<s type="C" name="Visited Internet Link_text" followedby="Visited Internet Link_text" props="text-decoration:underline; color:#800000"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section xid="83" props="page-margin-right:0.7874in; page-width:8.2673in; page-margin-left:0.7874in; page-orientation:portrait; page-margin-bottom:0.7874in; page-margin-top:0.7874in; page-height:11.6925in">
+<p style="Heading 1" xid="84">Combinatoria</p>
+</section>
+<section xid="85" props="page-margin-right:0.7874in; column-gap:0in; page-margin-left:0.7874in; columns:1">
+<p style="Text body" xid="86" props="text-align:justify">Original de Carlos Domingo. Editado por Carmen Rodríguez y Jacinto Dávila. Universidad de Los Andes, Venezuela. </p>
+<p style="Text body" xid="87" props="text-align:justify">1. Considere un objeto elemento △ que puede tomarse en 3 formas: △ ▷ ▽ y un elemento □ que puede tomarse en cuatro formas: __, __, __, ___. </p>
+<p style="Text body" xid="88" props="text-align:justify">¿En cuántas formas diferentes puede tomarse <c props="font-style:italic">uno cualquiera</c> de estos elementos es decir un elemento del conjunto: { △, □ } ? __________ </p>
+<p style="Text body" xid="89" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="90" props="text-align:justify">2. Esta solución es un caso particular de la <c props="font-weight:bold">regla de la suma</c>: </p>
+<p style="Text body" xid="91" props="text-align:justify; tabstops:3.2in/L0">“Si un objeto A puede tomarse en <c props="font-style:italic">m</c> formas y el objeto B en <c props="font-style:italic">n</c> formas entonces uno entre A ó B puede tomarse <c props="text-decoration:underline; font-weight:bold">de</c>  _____________ formas”. </p>
+<p style="Text body" xid="92" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="93" props="text-align:justify">3. Considere el mismo ejemplo 1 pero ahora hay que tomar 2 objetos, el △ y el □. </p>
+<p style="Text body" xid="94" props="text-align:justify">¿En cuántas formas puedo tomarlos?  (no interesa el orden, es decir △ □ es igual a □ △). </p>
+<p style="Text body" xid="95" props="text-align:justify">Sugerencia: observar el "árbol": </p>
+<p style="Text body" xid="96" props="text-align:center">alt text</p>
+<p style="Text body" xid="97" props="text-align:justify"><br/>El número de formas es: _________________ </p>
+<p style="Text body" xid="98" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="99" props="text-align:justify">4. Esta solución es un caso particular de la <c props="font-weight:bold">regla del producto</c>: </p>
+<p style="Text body" xid="100" props="text-align:justify">“Si un elemento A puede tomarse de <c props="font-style:italic">m</c> formas y el B de <c props="font-style:italic">n</c> formas entonces el par A y B puede tomarse <c props="text-decoration:underline; font-weight:bold">en</c> ___________ formas”. </p>
+<p style="Text body" xid="101" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="102" props="text-align:justify">5. Sean los conjuntos C1={A, B, C, D} C2={X, Y, Z} </p>
+<p style="Text body" xid="103" props="text-align:justify">¿Cuántas y cuáles son las duplas o pares que pueden construirse teniendo cada dupla un primer elemento de C1 y un segundo elemento de C2? </p>
+<p style="Text body" xid="104" props="text-align:justify">Considerar que el primer elemento puede tomarse en ____ formas y el segundo en _____ formas. </p>
+<p style="Text body" xid="105" props="text-align:justify">Construir el árbol: </p>
+<p style="Text body" xid="106" props="text-align:center">alt text</p>
+<p style="Text body" xid="107" props="text-align:justify"><br/>Duplas: AX,___________________________________________________________________ </p>
+<p style="Text body" xid="108" props="text-align:justify">Cantidad: ____________ </p>
+<p style="Text body" xid="109" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="110" props="text-align:justify">7. Sean r conjuntos con n1, n2, ..., nr objetos respectivamente. El número de conjuntos diferentes con r elementos cada uno, conteniendo un elemento de cada conjunto será: </p>
+<p style="Text body" xid="111" props="text-align:justify">M = n1* _________________________________ </p>
+<p style="Text body" xid="112" props="text-align:justify">Demostrarlo por inducción: </p>
+<p style="Forrest: Source" xid="113" props="text-align:justify"><c></c></p>
+<p style="Forrest: Source" xid="114" props="text-align:justify"><c></c></p>
+<p style="Forrest: Source" xid="115" props="text-align:justify"><c></c></p>
+<p style="Forrest: Source" xid="116" props="text-align:justify"><c></c></p>
+<p style="Forrest: Source" xid="117" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="118" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="119" props="text-align:justify">8. Si tenemos k conjuntos iguales de <c props="font-style:italic">n</c> elementos cada uno el número de k-tuplas distintas que pueden formarse extrayendo un elemento de cada uno es:________ </p>
+<p style="Text body" xid="120" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="121" props="text-align:justify">9. Demostrar, usando esta fórmula que hay 1000 números de tres cifras o menos. </p>
+<p style="Text body" xid="122" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="123" props="text-align:justify">10. a) Calcular, basándose en la fórmula dada en 8, <c props="font-family:DejaVu Sans">¿</c>cuántos subconjuntos diferentes pueden formarse en un conjunto C de <c props="font-style:italic">n</c> elementos?. </p>
+<p style="Text body" xid="124" props="text-align:justify">Nota: Los subconjuntos podrían formarse considerando el C={a1, a2, ... , an} y luego los subconjuntos  {a1} ... {a1, a2}, {a2, a3}, ... , {an-1, an}, .. {a1,..,an} </p>
+<p style="Text body" xid="125" props="text-align:justify"><br/>b) Demostrar la misma fórmula por inducción. </p>
+<p style="Forrest: Source" xid="126" props="text-align:justify"><c></c></p>
+<p style="Forrest: Source" xid="127" props="text-align:justify"><c></c></p>
+<p style="Forrest: Source" xid="128" props="text-align:justify"><c></c></p>
+<p style="Forrest: Source" xid="129" props="text-align:justify"><c></c></p>
+<p style="Forrest: Source" xid="130" props="text-align:justify"><c></c></p>
+<p style="Forrest: Source" xid="131" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="132" props="text-align:justify"><br/>11. ¿Cuántos números binarios de <c props="font-style:italic">n</c> cifras hay? (Número binario es el que se escribe con sólo dos cifras 0 y 1 así: 0, 1, ..10, ...11, ....100, .....101, ......110, etc) </p>
+<p style="Text body" xid="133" props="text-align:justify"><br/>12. ¿Cómo resolvería el problema 10 con el resultado del problema 11? </p>
+<p style="Text body" xid="134" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="135" props="text-align:justify">13. ¿Cuántas funciones diferentes f: A -&gt; B pueden formarse si el dominio A tiene <c props="font-style:italic">k</c> valores y el rango B <c props="font-style:italic">n</c> valores?  __________________________________ </p>
+<p style="Text body" xid="136" props="text-align:justify">Sigamos la respuesta que propone J. Rodríguez en el “Arte de Contar”: Digamos primero que f es una función de A en B y representemoslo así <math dataid="MathLatex0" latexid="LatexMath0" xid="137" props="height:0.2075in; width:0.4756in"><image dataid="snapshot-png-MathLatex0" props="height:0,000000in; width:0,000000in"/></math>.  Esta es una exageración notacional, porque A y B son conjuntos, pero veremos que conviene para los resultados que siguen. Digamos ahora que <math dataid="MathLatex1" latexid="LatexMath1" xid="138" props="height:0.2307in; width:1.0126in"><image dataid="snapshot-png-MathLatex1" props="height:0,000000in; width:0,000694in"/></math>y <math dataid="MathLatex2" latexid="LatexMath2" xid="139" props="height:0.2307in; width:1.1134in"><image dataid="snapshot-png-MathLatex2" props="height:0,000000in; width:0,000694in"/></math>. “Una de las” f es puede representar como sigue:</p>
+<p style="Text body" xid="140" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="141" props="text-align:center"><math dataid="MathLatex3" latexid="LatexMath3" xid="142" props="height:0.5071in; width:1.789in"><image dataid="snapshot-png-MathLatex3" props="height:0,000000in; width:0,000694in"/></math></p>
+<p style="Text body" xid="143" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="144" props="text-align:justify">pareando la k-tupla de elementos de A con una selección particular (que determina la f) de elementos de B. Decimos ahora que:</p>
+<p style="Text body" xid="145" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="146" props="text-align:center">f es una k-permutación o permutación(n,k) de los n elementos de B. </p>
+<p style="Text body" xid="147" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="148" props="text-align:justify">Proposición para probar: <math dataid="MathLatex4" latexid="LatexMath4" xid="149" props="height:0.2126in; width:1.0244in"><image dataid="snapshot-png-MathLatex4" props="height:0,000000in; width:0,000694in"/></math></p>
+<p style="Text body" xid="150" props="text-align:justify">Demostración: Sea <math dataid="MathLatex5" latexid="LatexMath5" xid="151" props="height:0.3925in; width:1.5252in"><image dataid="snapshot-png-MathLatex5" props="height:0,000000in; width:0,000694in"/></math>(noten que esta no es ninguna de las anteriores, sino una nueva construcción, de nuevo exagerada, para referirnos al producto cartesiano múltiple del conjunto B consigo mismo), tal que:</p>
+<p style="Text body" xid="152" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="153" props="text-align:center"><math dataid="MathLatex6" latexid="LatexMath6" xid="154" props="height:0.2591in; width:2.9in"><image dataid="snapshot-png-MathLatex6" props="height:0,000000in; width:0,001389in"/></math></p>
+<p style="Text body" xid="155" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="156" props="text-align:justify">La función auxiliar <c props="font-family:DejaVu Sans">φ: </c><math dataid="MathLatex7" latexid="LatexMath7" xid="157" props="height:0.2075in; width:0.6071in"><image dataid="snapshot-png-MathLatex7" props="height:0,000000in; width:0,000000in"/></math><c props="font-family:Times New Roman">definida así:</c></p>
+<p style="Text body" xid="158" props="text-align:center; font-family:Times New Roman"><math dataid="MathLatex8" latexid="LatexMath8" xid="159" props="height:0.2083in; width:1.5693in"><image dataid="snapshot-png-MathLatex8" props="height:0,000000in; width:0,000694in"/></math></p>
+<p style="Text body" xid="160" props="text-align:justify; font-family:Times New Roman">es biyectiva y, por tanto, en virtud del principio de igualda, conseguir <math dataid="MathLatex9" latexid="LatexMath9" xid="161" props="height:0.2091in; width:0.361in"><image dataid="snapshot-png-MathLatex9" props="height:0,000000in; width:0,000000in"/></math>es igual que conseguir a <math dataid="MathLatex10" latexid="LatexMath10" xid="162" props="height:0.2091in; width:0.3366in"><image dataid="snapshot-png-MathLatex10" props="height:0,000000in; width:0,000000in"/></math></p>
+<p style="Text body" xid="163" props="text-align:justify; font-family:Times New Roman">Para encontrar todas esas k-tuplas (o k-uplas) <math dataid="MathLatex11" latexid="LatexMath11" xid="164" props="height:0.2634in; width:1.5425in"><image dataid="snapshot-png-MathLatex11" props="height:0,000000in; width:0,000694in"/></math>formadas por elementos de B, basta con observar que existen n posibilidades de colocar un elemento de A en la primera componente, n en la segunda y así sucesivamente. De manera que se tiene:</p>
+<p style="Text body" xid="165" props="text-align:justify; font-family:Times New Roman"><c></c></p>
+<p style="Text body" xid="166" props="text-align:center; font-family:Times New Roman"><math dataid="MathLatex12" latexid="LatexMath12" xid="167" props="height:0.3929in; width:1.6417in"><image dataid="snapshot-png-MathLatex12" props="height:0,000000in; width:0,000694in"/></math></p>
+<p style="Text body" xid="168" props="text-align:justify; font-family:Times New Roman"><c></c></p>
+<p style="Text body" xid="169" props="text-align:justify; font-family:Times New Roman"><c></c></p>
+<p style="Text body" xid="170" props="text-align:justify; font-family:Times New Roman">En conclusión (con la aplicación repetida del principio de igualdad): </p>
+<p style="Text body" xid="171" props="text-align:justify; font-family:Times New Roman">Existen <math dataid="MathLatex13" latexid="LatexMath13" xid="172" props="height:0.2075in; width:0.2134in"><image dataid="snapshot-png-MathLatex13" props="height:0,000000in; width:0,000000in"/></math></p>
+<p style="Text body" xid="173" props="text-align:justify; font-family:Times New Roman">13.1.- Funciones de A en B.</p>
+<p style="Text body" xid="174" props="text-align:justify; font-family:Times New Roman">13.2.- permutaciones-k con repetición de los n elementos de B.</p>
+<p style="Text body" xid="175" props="text-align:justify; font-family:Times New Roman">13.3.- k-tuplas formadas con elementos de B.</p>
+<p style="Text body" xid="176" props="text-align:justify; font-family:Times New Roman">13.4.- Maneras de arreglar k objetos en n cajas. </p>
+<p style="Text body" xid="177" props="text-align:justify; font-family:Times New Roman">13.5.- Palabras de longitud k formadas a partir de un alfabeto con los n símbolos en B. </p>
+<p style="Text body" xid="178" props="text-align:justify; font-family:Times New Roman"><c></c></p>
+<p style="Text body" xid="179" props="text-align:justify">14. Se llama permutación-m sin repetición o variación de n objetos distintos a cualquier selección ordenada de m objetos elegidos entre aquellos n. </p>
+<p style="Text body" xid="180" props="text-align:justify">Se puede indicar P(n,m) o V<c props="text-position:subscript">m</c><c props="text-position:superscript">n </c></p>
+<p style="Text body" xid="181" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="182" props="text-align:justify">Por ejemplo si tenemos los 5 elementos {A, B, C, D, E} y tomamos las permutaciones-3 resultan: </p>
+<p style="Text body" xid="183" props="text-align:justify"><c></c></p>
+<p style="Preformatted Text" xid="184" props="text-align:justify"> ABC    ACB     BAC     BCA     CAB     CBA</p>
+<p style="Preformatted Text" xid="185" props="text-align:justify"> ABD    ADB</p>
+<p style="Preformatted Text" xid="186" props="text-align:justify"> ABE</p>
+<p style="Preformatted Text" xid="187" props="text-align:justify"> BCD</p>
+<p style="Preformatted Text" xid="188" props="text-align:justify"> BCE</p>
+<p style="Preformatted Text" xid="189" props="text-align:justify; margin-top:0in; margin-bottom:0.1965in"> CDE</p>
+<p style="Text body" xid="190" props="text-align:justify"><br/>(completar la lista en el orden sugerido) </p>
+<p style="Text body" xid="191" props="text-align:justify"><br/>En general el primer elemento puede elegirse en <c props="font-style:italic">n</c> formas diferentes (en el ejemplo son:________). El segundo puede elegirse en ___________ formas. Así que con m=2 podemos obtener ___________ formas diferentes y quedan aún __________elementos. El tercero puede elegirse pues de _________________ formas. Así que podemos formar ______________ grupos de 3 elementos. </p>
+<p style="Text body" xid="192" props="text-align:justify">Si elegimos m términos tendríamos: </p>
+<p style="Text body" xid="193" props="text-align:justify">V<c props="text-position:subscript">m</c><c props="text-position:superscript">n </c> = P(n,m) = ________________________ </p>
+<p style="Text body" xid="194" props="text-align:justify"><br/>b) Por convención se define P(n,0) = 1 fórmula que no tiene ningún significado combinatorio. </p>
+<p style="Text body" xid="195" props="text-align:justify">c) Demostrar por inducción la fórmula P(n,m) (inducción sobre m). </p>
+<p style="Text body" xid="196" props="text-align:justify"><br/>d)- Hacer un árbol para demostrar la fórmula anterior. Concretarse al ejemplo: {A,B,C,D,E} n= 5 m=3 </p>
+<p style="Text body" xid="197" props="text-align:justify"><br/><br/>e) Las permutaciones-n de n elementos se llaman simplemente permutaciones P(n,n)= P(n)= __________ </p>
+<p style="Text body" xid="198" props="text-align:justify"><br/>f) La fórmula de P(n,m) puede escribirse :  P(n,m) =  n!/(n-m)!</p>
+<p style="Text body" xid="199" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="200" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="201" props="text-align:justify"><br/>Demostración: </p>
+<p style="Forrest: Source" xid="202" props="text-align:justify"><c></c></p>
+<p style="Forrest: Source" xid="203" props="text-align:justify"><c></c></p>
+<p style="Forrest: Source" xid="204" props="text-align:justify"><c></c></p>
+<p style="Forrest: Source" xid="205" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="206" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="207" props="text-align:justify">15. Para muchos problemas de combinatoria es útil obtener <c props="font-weight:bold">fórmulas de recurrencia</c> que permiten calcular números combinatorios en función de números análogos de orden inferior. </p>
+<p style="Text body" xid="208" props="text-align:justify">Consideramos como ejemplo nuevamente el cálculo de las P(n,m) (permutaciones de n elementos tomados de a m cada vez). </p>
+<p style="Text body" xid="209" props="text-align:justify">Tomemos un elemento particular (digamos la letra A en el conjunto S = {A,E,I,O,U}).  </p>
+<p style="Text body" xid="210" props="text-align:justify">Consideremos formadas las P(n,m) permutaciones. Cada permutación contiene o no cada elemento. Las que <c props="font-weight:bold">no lo contienen</c> son en total: </p>
+<p style="Text body" xid="211" props="text-align:justify">P( _____________ ) </p>
+<p style="Text body" xid="212" props="text-align:justify">En las que lo contienen tal elemento puede estar en las posiciones 1, 2, ... , m mientras los demás forman una permutación de ___________ elementos tomados de a __________ . Así que las que lo contienen son en total ________ . P( _____________ ) </p>
+<p style="Text body" xid="213" props="text-align:justify"><br/>Resulta entonces: </p>
+<p style="Text body" xid="214" props="text-align:justify">P(n,m)= _____________ </p>
+<p style="Text body" xid="215" props="text-align:justify"><br/>Esta es una fórmula de recurrencia que expresa P(n,m) en función de la misma función P para valores menores de los argumentos. </p>
+<p style="Text body" xid="216" props="text-align:justify">Con esta fórmula pueden calcularse “por recurrencia” los valores de P(n,m) a partir de valores iniciales. Se pone P(n,0)=1, y P(n,m)=0 si n&lt;m. </p>
+<p style="Text body" xid="217" props="text-align:justify">Completar el cálculo según el cuadro siguiente (Vea, según la fórmula de recurrencia, como se calcula el valor de cada cuadro en función de las superioralt text</p>
+<p style="Text body" xid="218" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="219" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="220" props="text-align:justify">16- En particular las permutaciones de n elementos tomados de a n es P(n, n) </p>
+<p style="Text body" xid="221" props="text-align:justify">P(n,n)= __________ + n . _________ </p>
+<p style="Text body" xid="222" props="text-align:justify">o sea P(n) = n . </p>
+<p style="Text body" xid="223" props="text-align:justify"><br/>Esta fórmula de recurrencia define el “factorial” de n. Así que, como ya se vio, </p>
+<p style="Text body" xid="224" props="text-align:justify">P(n)= ____________ </p>
+<p style="Text body" xid="225" props="text-align:justify">Por ejemplo: </p>
+<p style="Text body" xid="226" props="text-align:justify">¿De cuántas maneras distintas podemos ordenar 10 libros en el estante de una biblioteca? </p>
+<p style="Text body" xid="227" props="text-align:justify">P(_________) = ___________________ </p>
+<p style="Text body" xid="228" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="229" props="text-align:justify">17- Se presenta a veces el problema de calcular permutaciones de n elementos tomados de a n, pero algunos objetos son indistinguibles. Por ejemplo, en el caso de los 10 libros puede haber 3 copias de un cierto libro, 2 de otro, 4 de otro y 1 de otro. Hay sólo cuatro clases de libros diferentes y por lo tanto muchas de las permutaciones que antes consideramos diferentes son ahora idénticas. </p>
+<p style="Text body" xid="230" props="text-align:justify">Consideremos en general n elementos de los cuales hay m1 iguales entre sí, m2 iguales entre sí, ... mr iguales entre sí, </p>
+<p style="Text body" xid="231" props="text-align:justify">(claro está que es: m1 + m2 + ... + mr = _________) </p>
+<p style="Text body" xid="232" props="text-align:justify">Para ver cuántas permutaciones distinguibles hay, consideremos que P sea este número. </p>
+<p style="Text body" xid="233" props="text-align:justify">Si los m1 elementos iguales entre sí se transforman en diferentes cada una de las P originaría __________ permutaciones y el número total de permutaciones (supuestos los m1 elementos distintos) sería P.____________. </p>
+<p style="Text body" xid="234" props="text-align:justify">Si ahora los m2 iguales se volvieran diferentes cada una de las últimas permutaciones originaría __________ y tendríamos en total P.m1!.____________. permutaciones. </p>
+<p style="Text body" xid="235" props="text-align:justify">Por último si todas llegaran a ser diferentes el número total de permutaciones sería: </p>
+<p style="Text body" xid="236" props="text-align:justify">P . m1! . m2! . ... </p>
+<p style="Text body" xid="237" props="text-align:justify">Pero este número total es el número de permutaciones de ______________ objetos diferentes tomados todos los n. Vale pues _____________ </p>
+<p style="Text body" xid="238" props="text-align:justify">Así que resulta: </p>
+<p style="Text body" xid="239" props="text-align:justify">P = P(n, m1, m2, ... mr)= ______________________________________ </p>
+<p style="Text body" xid="240" props="text-align:justify">Por ejemplo si en los 10 libros del ejemplo 16 hay 4 iguales, 3 iguales, 2 iguales y uno único el número de permutaciones distinguibles entre ellos es </p>
+<p style="Text body" xid="241" props="text-align:justify">P =______________________________________ </p>
+<p style="Text body" xid="242" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="243" props="text-align:justify">18. <c props="font-weight:bold">Combinaciones</c>: Se llama combinación de tamaño <c props="font-style:italic">m</c> de <c props="font-style:italic">n</c> elementos diferentes a cualquier conjunto de <c props="font-style:italic">m</c> elementos que se tomen de los <c props="font-style:italic">n</c> originales. </p>
+<p style="Text body" xid="244" props="text-align:justify">Dos de los conjuntos se consideran diferentes si difieren en qué elementos tienen. Si difieren sólo en el orden se los considera iguales. </p>
+<p style="Text body" xid="245" props="text-align:justify">El número de combinaciones de m elementos tomados de n se indica C(n,m) </p>
+<p style="Text body" xid="246" props="text-align:justify">Ejemplo: </p>
+<p style="Text body" xid="247" props="text-align:justify">Construir todas las combinaciones de tres vocales: N= {A, E, I, O, U} </p>
+<p style="Preformatted Text" xid="248" props="text-align:justify"> AEI AEO ___</p>
+<p style="Preformatted Text" xid="249" props="text-align:justify"> AIO  ___</p>
+<p style="Preformatted Text" xid="250" props="text-align:justify"> EIO </p>
+<p style="Preformatted Text" xid="251" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="252" props="text-align:justify">En total hay C(5,3)= ___________________ combinaciones. </p>
+<p style="Text body" xid="253" props="text-align:justify">¿Cuál es la diferencia con las permutaciones-m de n objetos? </p>
+<p style="Text body" xid="254" props="text-align:justify"><br/>19. La fórmula de las combinaciones se obtiene fácilmente por un razonamiento análogo al de 16. </p>
+<p style="Text body" xid="255" props="text-align:justify">Si en las combinaciones de tamaño m permutamos todos los objetos cada una origina _______ permutaciones. Así que: </p>
+<p style="Text body" xid="256" props="text-align:justify">P(n,m)= C(n,m) . ____________ </p>
+<p style="Text body" xid="257" props="text-align:justify">De donde </p>
+<p style="Text body" xid="258" props="text-align:justify">C(n,m) = P(n,m)/P(m,m)= ___________________________</p>
+<p style="Text body" xid="259" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="260" props="text-align:justify">20. Los números C(n,m) o bien C<c props="text-position:subscript">m</c><c props="text-position:superscript">n </c> o bien <math dataid="MathLatex14" latexid="LatexMath14" xid="261" props="height:0.4138in; width:0.3264in"><image dataid="snapshot-png-MathLatex14" props="height:0,000000in; width:0,000000in"/></math><field footnote-id="0" text:note-citation="1" type="footnote_ref" xid="262" props="text-position:superscript"></field><foot footnote-id="0" xid="263">
+<p style="Text body" xid="264" props="text-align:justify"><field type="footnote_anchor" footnote-id="0" xid="265"></field>	 Por si acaso, esta es una representación independiente del editor &lt;math&gt;\left( \begin{array}{c} n \\ m \end{array}\right)&lt;/math&gt;</p>
+</foot> se llaman números combinatorios y tienen una gran importancia en Estadística. Se escriben: </p>
+<p style="Text body" xid="266" props="text-align:center"><math dataid="MathLatex15" latexid="LatexMath15" xid="267" props="height:0.4134in; width:0.3252in"><image dataid="snapshot-png-MathLatex15" props="height:0,000000in; width:0,000000in"/></math>= <math dataid="MathLatex16" latexid="LatexMath16" xid="268" props="height:0.4083in; width:2.9665in"><image dataid="snapshot-png-MathLatex16" props="height:0,000000in; width:0,001389in"/></math></p>
+<p style="Text body" xid="269" props="text-align:justify">Se define C(n,0)=1 aunque esto no tiene un significado combinatorio. </p>
+<p style="Text body" xid="270" props="text-align:justify">Demostrar la notable propiedad de simetría: </p>
+<p style="Text body" xid="271" props="text-align:center"><math dataid="MathLatex17" latexid="LatexMath17" xid="272" props="height:0.4138in; width:0.9319in"><image dataid="snapshot-png-MathLatex17" props="height:0,000000in; width:0,000000in"/></math></p>
+<p style="Text body" xid="273" props="text-align:justify"><br/>21- Se puede obtener una fórmula de recurrencia para las C(n,m). El razonamiento es análogo al visto en 15. </p>
+<p style="Text body" xid="274" props="text-align:justify">22- Con la fórmula de recurrencia se obtiene la siguiente tabla de los C(n,m) (teniendo en cuenta que C(1,0)=1 y C(n n)= 1) </p>
+<p style="Text body" xid="275" props="text-align:center">alt text</p>
+<p style="Text body" xid="276" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="277" props="text-align:justify">Esta construcción se llama Rectángulo de Tartaglia o Triángulo de Pascal. En realidad era conocido antes de esos por el poeta y algebrista iraní Omar Khayam (año 1100 dc). </p>
+<p style="Text body" xid="278" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="279" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="280" props="text-align:justify">23- Además de las reglas de suma y producto y las fórmulas de recurrencia hay otro poderoso artefacto para resolver problemas de combinatoria. Son las <c props="font-weight:bold">funciones generatrices</c>. </p>
+<p style="Text body" xid="281" props="text-align:justify">Se llaman así ciertas funciones que se expresan como una suma de términos polinómicos cuyos coeficientes son los valores del problema combinatorio que interesa. </p>
+<p style="Text body" xid="282" props="text-align:justify">Tales funciones generatrices facilitan la obtención de relaciones importantes entre tales números combinatorios. </p>
+<p style="Text body" xid="283" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="284" props="text-align:justify">24- El ejemplo más común de función generatriz es la potencia n-ésima de un binomio. </p>
+<p style="Text body" xid="285" props="text-align:justify">Sea el producto de n binomios <math dataid="MathLatex18" latexid="LatexMath18" xid="286" props="height:0.2154in; width:2.178in"><image dataid="snapshot-png-MathLatex18" props="height:0,000000in; width:0,001389in"/></math></p>
+<p style="Text body" xid="287" props="text-align:justify">Para calcularlo, según la ley distributiva, debemos multiplicar cada término de uno de los binomios por todos los términos de los otros. Un término cualquiera así obtenido sería por ejemplo: </p>
+<p style="Text body" xid="288" props="text-align:center; font-style:italic">a b a a b b a b a a a ... ba </p>
+<p style="Text body" xid="289" props="text-align:justify">donde hemos tomado el a del primer binomio, el b del segundo, el a del tercero, el a del cuarto etc, habiendo __________ factores en total. </p>
+<p style="Text body" xid="290" props="text-align:justify">Todos los términos que así se obtienen serán diferentes pero muchos sólo difieren en el orden de los factores, así que por su valor deben considerarse _______________. </p>
+<p style="Text body" xid="291" props="text-align:justify"><br/>Tomemos un término con r factores <c props="font-weight:bold">b</c>.  Tendrá ___________ factores a. Así que su forma será : a______ . b________ </p>
+<p style="Text body" xid="292" props="text-align:justify"><br/>¿Cuántos de estos factores habrá? </p>
+<p style="Text body" xid="293" props="text-align:justify">Vemos que hay exactamente tantos como las diferentes maneras en que podemos tomar r factores b de los ____________ binomios diferentes. Es decir, su número será <math dataid="MathLatex19" latexid="LatexMath19" xid="294" props="height:0.4138in; width:0.3398in"><image dataid="snapshot-png-MathLatex19" props="height:0,000000in; width:0,000000in"/></math>. Por lo tanto si en el desarrollo de <math dataid="MathLatex20" latexid="LatexMath20" xid="295" props="height:0.2154in; width:0.5654in"><image dataid="snapshot-png-MathLatex20" props="height:0,000000in; width:0,000000in"/></math>se agrupan los términos <math dataid="MathLatex21" latexid="LatexMath21" xid="296" props="height:0.2075in; width:0.4945in"><image dataid="snapshot-png-MathLatex21" props="height:0,000000in; width:0,000000in"/></math> y se suman, se obtiene _______________ </p>
+<p style="Text body" xid="297" props="text-align:justify"><br/>Por eso la potencia puede expresarse:</p>
+<p style="Text body" xid="298" props="text-align:center"> <math dataid="MathLatex22" latexid="LatexMath22" xid="299" props="height:0.4138in; width:4.4244in"><image dataid="snapshot-png-MathLatex22" props="height:0,000000in; width:0,002778in"/></math></p>
+<p style="Text body" xid="300" props="text-align:justify"><br/>Consideremos el caso a=1 b=x: </p>
+<p style="Text body" xid="301" props="text-align:center"> <math dataid="MathLatex23" latexid="LatexMath23" xid="302" props="height:0.4138in; width:3.4516in"><image dataid="snapshot-png-MathLatex23" props="height:0,000000in; width:0,002083in"/></math></p>
+<p style="Text body" xid="303" props="text-align:justify"><br/>Esta función <math dataid="MathLatex24" latexid="LatexMath24" xid="304" props="height:0.2154in; width:0.5626in"><image dataid="snapshot-png-MathLatex24" props="height:0,000000in; width:0,000000in"/></math>, se llama función generadora de los números combinatorios <math dataid="MathLatex25" latexid="LatexMath25" xid="305" props="height:0.4134in; width:0.3252in"><image dataid="snapshot-png-MathLatex25" props="height:0,000000in; width:0,000000in"/></math></p>
+<p style="Text body" xid="306" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="307" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="308" props="text-align:justify">25- Demostrar que <math dataid="MathLatex26" latexid="LatexMath26" xid="309" props="height:0.4138in; width:2.0752in"><image dataid="snapshot-png-MathLatex26" props="height:0,000000in; width:0,001389in"/></math></p>
+<p style="Text body" xid="310" props="text-align:justify"><br/>26- Demostrar que  <math dataid="MathLatex27" latexid="LatexMath27" xid="311" props="height:0.4138in; width:2.4465in"><image dataid="snapshot-png-MathLatex27" props="height:0,000000in; width:0,001389in"/></math></p>
+<p style="Text body" xid="312" props="text-align:justify"><br/>27- Partiendo de la identidad <math dataid="MathLatex28" latexid="LatexMath28" xid="313" props="height:0.2154in; width:1.8598in"><image dataid="snapshot-png-MathLatex28" props="height:0,000000in; width:0,000694in"/></math> demostrar que </p>
+<p style="Text body" xid="314" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="315" props="text-align:center"><math dataid="MathLatex29" latexid="LatexMath29" xid="316" props="height:0.4138in; width:1.7764in"><image dataid="snapshot-png-MathLatex29" props="height:0,000000in; width:0,000694in"/></math>y  escribirla para m+h=7, r=3. </p>
+<p style="Text body" xid="317" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="318" props="text-align:justify">Esta es la llamada convolución Chu-Vandermonde. En “Concrete Mathematics” de Graham et al se le da una interpretación combinatoria (que no sustituye la demostración que se pide): “Del lado izquierdo de la ecuación se cuenta el número de maneras de escoger r personas entre m mujeres y h hombres, digamos. Entonces, del lado derecho, cada término de la suma es el número de maneras de escoger k de las mujeres y r-k de los hombres. Al sumar sobre todos los k se cuenta cada posibilidad exactamente una vez”. </p>
+<p style="Text body" xid="319" props="text-align:justify"><c></c></p>
+<p style="Horizontal Line" xid="320" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="321" props="text-align:justify"><c></c></p>
+<p style="Text body" xid="322" props="text-align:justify">Fin del documento sobre combinatoria. Licencia pendiente. </p>
+<p xid="323"><pbr/></p>
+<p style="Heading 2" xid="324" props="text-align:justify"><bookmark type="start" name="Teor.C3.ADa_del_Conteo" xid="325"/><bookmark type="end" name="Teor.C3.ADa_del_Conteo" xid="326"/><c props="font-weight:bold">Teoría del Conteo</c> </p>
+<p style="Text body" xid="327" props="text-align:center; font-weight:bold; font-size:15pt"><c></c></p>
+<p style="Text body" xid="328" props="text-align:center; font-size:15pt"><c props="font-weight:bold">Introducción a las funciones generatrices</c> </p>
+<p style="Text body" xid="329" props="text-align:center">Tomado de Mohammad Dadashzadeh <c props="font-style:italic">the essentials of discrete structures</c>, Research and Education Association, EEUU, 1991. Traducción Libre de Jacinto Dávila. </p>
+<p style="Text body" xid="330" props="text-align:justify">El procedimiento general para contar permutaciones o combinaciones está basado en el concepto de función generatriz: una función polinómica cuyos coeficientes son los valores que buscamos al contar. Para combinaciones, la observación básica es que el valor :</p>
+<p style="Text body" xid="331" props="text-align:center"><math dataid="MathLatex30" latexid="LatexMath30" xid="332" props="height:0.4138in; width:0.2898in"><image dataid="snapshot-png-MathLatex30" props="height:0,000000in; width:0,000000in"/></math></p>
+<p style="Text body" xid="333" props="text-align:justify">representa los coeficientes de la expansión binomial:</p>
+<p style="Text body" xid="334" props="text-align:center"><math dataid="MathLatex31" latexid="LatexMath31" xid="335" props="height:0.4138in; width:3.6744in"><image dataid="snapshot-png-MathLatex31" props="height:0,000000in; width:0,002083in"/></math></p>
+<p style="Text body" xid="336" props="text-align:justify">La interpretación del lado izquierdo de esta fórmula dice que estamos manipulando n objetos (x es el exponente), cada uno de los cuales puede ser seleccionado una vez (el 1 en el término x; <math dataid="MathLatex32" latexid="LatexMath32" xid="337" props="height:0.2075in; width:0.452in"><image dataid="snapshot-png-MathLatex32" props="height:0,000000in; width:0,000000in"/></math>) o ninguna vez (el 0 en el término 1; <math dataid="MathLatex33" latexid="LatexMath33" xid="338" props="height:0.2075in; width:0.4445in"><image dataid="snapshot-png-MathLatex33" props="height:0,000000in; width:0,000000in"/></math>). </p>
+<p style="Text body" xid="339" props="text-align:justify">La interpretación del lado derecho de la fórmula dice que el coeficiente que acompañe al término <math dataid="MathLatex34" latexid="LatexMath34" xid="340" props="height:0.2075in; width:0.2102in"><image dataid="snapshot-png-MathLatex34" props="height:0,000000in; width:0,000000in"/></math> es el número de formas en que puedo escoger r objetos a partir de n (es decir, n tomados de r en r). </p>
+<p style="Text body" xid="341" props="text-align:justify">Ejemplo: ¿De cuántas maneras podemos seleccionar 8 bolitas de color a partir de un montón con 2 rojas, 3 azules, 4 amarillas y 5 negras (es decir 14 en total), sujetas a la restricción de que el número de negras sea impar? </p>
+<p style="Text body" xid="342" props="text-align:justify">Para las rojas<field footnote-id="1" text:note-citation="2" type="footnote_ref" xid="343" props="text-position:superscript"></field><foot footnote-id="1" xid="344">
+<p style="Text body" xid="345" props="text-align:justify"><field type="footnote_anchor" footnote-id="1" xid="346"></field>	(1+x+x^2)</p>
+</foot> <math dataid="MathLatex35" latexid="LatexMath35" xid="347" props="height:0.2154in; width:0.7957in"><image dataid="snapshot-png-MathLatex35" props="height:0,000000in; width:0,000000in"/></math></p>
+<p style="Text body" xid="348" props="text-align:justify">Para las azules<field footnote-id="2" text:note-citation="3" type="footnote_ref" xid="349" props="text-position:superscript"></field><foot footnote-id="2" xid="350">
+<p style="Text body" xid="351" props="text-align:justify"><field type="footnote_anchor" footnote-id="2" xid="352"></field>	(1+x+x^2+x^3)</p>
+</foot> <math dataid="MathLatex36" latexid="LatexMath36" xid="353" props="height:0.2154in; width:1.0783in"><image dataid="snapshot-png-MathLatex36" props="height:0,000000in; width:0,000694in"/></math></p>
+<p style="Text body" xid="354" props="text-align:justify">Para las amarillas<field footnote-id="3" text:note-citation="4" type="footnote_ref" xid="355" props="text-position:superscript"></field><foot footnote-id="3" xid="356">
+<p style="Text body" xid="357" props="text-align:justify"><field type="footnote_anchor" footnote-id="3" xid="358"></field>	(1+x+x^2+x^3+x^4)</p>
+</foot> <math dataid="MathLatex37" latexid="LatexMath37" xid="359" props="height:0.2154in; width:1.3661in"><image dataid="snapshot-png-MathLatex37" props="height:0,000000in; width:0,000694in"/></math></p>
+<p style="Text body" xid="360" props="text-align:justify">Para las negras<field footnote-id="4" text:note-citation="5" type="footnote_ref" xid="361" props="text-position:superscript"></field><foot footnote-id="4" xid="362">
+<p style="Text body" xid="363" props="text-align:justify"><field type="footnote_anchor" footnote-id="4" xid="364"></field>	(x+x^3+x^5)</p>
+</foot> <math dataid="MathLatex38" latexid="LatexMath38" xid="365" props="height:0.2154in; width:0.8563in"><image dataid="snapshot-png-MathLatex38" props="height:0,000000in; width:0,000000in"/></math></p>
+<p style="Text body" xid="366" props="text-align:justify">La respuesta está en el coeficiente de <math dataid="MathLatex39" latexid="LatexMath39" xid="367" props="height:0.2075in; width:0.222in"><image dataid="snapshot-png-MathLatex39" props="height:0,000000in; width:0,000000in"/></math> en la expansión del producto de esos polinomios.  Esta  es la salida producida por Maxima<field footnote-id="5" text:note-citation="6" type="footnote_ref" xid="368" props="text-position:superscript"></field><foot footnote-id="5" xid="369">
+<p style="Footnote" xid="370"><field type="footnote_anchor" footnote-id="5" xid="371"></field>	<a xlink:href="http://wxmaxima.sourceforge.net/" xid="372">http://wxmaxima.sourceforge.net/</a> </p>
+<p style="Footnote" xid="374" props="text-indent:0in; margin-left:0in; margin-right:0in"><a xlink:href="http://maxima.sourceforge.net/" xid="375">http://maxima.sourceforge.net/</a></p>
+</foot>:</p>
+<p style="Text body" xid="377" props="text-align:justify"><math dataid="MathLatex40" latexid="LatexMath40" xid="378" props="height:0.2075in; width:7.098in"><image dataid="snapshot-png-MathLatex40" props="height:0,000000in; width:0,004861in"/></math></p>
+<p style="Text body" xid="379" props="text-align:justify">es decir, podemos seleccionarlas de 26 maneras. </p>
+<p style="Horizontal Line" xid="380" props="text-align:justify"><c></c></p>
+</section>
+<section xid="381" props="page-margin-left:0.7874in; page-margin-right:0.7874in">
+<p style="Text body" xid="382"></p>
+</section>
+<data>
+<d name="LatexMath0" base64="yes">
+IGZcaW4ge0J9XntBfQ==
+</d>
+<d name="LatexMath1" base64="yes">
+IEE9XGxlZnQoe3R9X3tcbWF0aHJtezEsfX17dH1fe1xtYXRocm17Mix9fVxtYXRocm17Li59
+LHt0fV97a31ccmlnaHQp
+</d>
+<d name="LatexMath10" base64="yes">
+IFxsZWZ0KHtCfV57a31ccmlnaHQp
+</d>
+<d name="LatexMath11" base64="yes">
+IFxsZWZ0KFxiZWdpbnthcnJheX17Y2NjY317Y31fe2ZcbGVmdCh7dH1fe2l9XHJpZ2h0KX0m
+IAl7Y31fe2ZcbGVmdCh7dH1fe2p9XHJpZ2h0KX0mIAlcbWF0aHJtey4uLn0mIAl7Y31fe2Zc
+bGVmdCh7dH1fe2x9XHJpZ2h0KX1cZW5ke2FycmF5fVxyaWdodCk=
+</d>
+<d name="LatexMath12" base64="yes">
+JCBcbGVmdCh7Qn1ee2t9XHJpZ2h0KT1cdW5kZXJzZXR7a1xtYXRocm17dmVjZXN9fXtcdW5k
+ZXJzZXR775iTfXtuXGFzdCBuXGFzdCBuXGFzdCBcbWF0aHJtey4uLn1cYXN0IG59fT17bn1e
+e2s=
+</d>
+<d name="LatexMath13" base64="yes">
+IHtufV57a30=
+</d>
+<d name="LatexMath14" base64="yes">
+IFxsZWZ0KFxiZWdpbnthcnJheX17Y31uXFwgbVxlbmR7YXJyYXl9XHJpZ2h0KQ==
+</d>
+<d name="LatexMath15" base64="yes">
+IFxsZWZ0KFxiZWdpbnthcnJheX17Y31uXFwgbVxlbmR7YXJyYXl9XHJpZ2h0KQ==
+</d>
+<d name="LatexMath16" base64="yes">
+IFxmcmFje25cbGVmdChuXG1pbnVzIDFccmlnaHQpXGxlZnQoblxtaW51cyAyXHJpZ2h0KVxt
+YXRocm17Li4ufVxsZWZ0KG5cbWludXMgXGxlZnQobVxtaW51cyAxXHJpZ2h0KVxyaWdodCl9
+e20hfT1cZnJhY3tuIX17bSFcbGVmdChuXG1pbnVzIG1ccmlnaHQpIX0=
+</d>
+<d name="LatexMath17" base64="yes">
+IFxsZWZ0KFxiZWdpbnthcnJheX17Y31uXFwgbVxlbmR7YXJyYXl9XHJpZ2h0KT1cbGVmdChc
+YmVnaW57YXJyYXl9e2N9blxcIG5cbWludXMgbVxlbmR7YXJyYXl9XHJpZ2h0KQ==
+</d>
+<d name="LatexMath18" base64="yes">
+IHtcbGVmdChhK2JccmlnaHQpfV57bn09XGxlZnQoYStiXHJpZ2h0KVxsZWZ0KGErYlxyaWdo
+dClcbWF0aHJtey4uLn1cbGVmdChhK2JccmlnaHQp
+</d>
+<d name="LatexMath19" base64="yes">
+IFxsZWZ0KFxiZWdpbnthcnJheX17fVxcIFxlbmR7YXJyYXl9XHJpZ2h0KQ==
+</d>
+<d name="LatexMath2" base64="yes">
+IEI9XGxlZnQoe2N9X3tcbWF0aHJtezEsfX17Y31fe1xtYXRocm17Mix9fVxtYXRocm17Li4u
+fSx7Y31fe259XHJpZ2h0KQ==
+</d>
+<d name="LatexMath20" base64="yes">
+IHtcbGVmdChhK2JccmlnaHQpfV57bn0=
+</d>
+<d name="LatexMath21" base64="yes">
+IHthfV57blxtaW51cyByfXtifV57cn0=
+</d>
+<d name="LatexMath22" base64="yes">
+IHtcbGVmdChhK2JccmlnaHQpfV57bn09e1xzdW0gfV97cj0wfV57cn1cbGVmdChcYmVnaW57
+YXJyYXl9e2N9blxcIHJcZW5ke2FycmF5fVxyaWdodCl7YX1ee25cbWludXMgcn17Yn1ee3J9
+PVxsZWZ0KFxiZWdpbnthcnJheX17Y31uXFwgMFxlbmR7YXJyYXl9XHJpZ2h0KXthfV57bn17
+Yn1eezB9K1xsZWZ0KFxiZWdpbnthcnJheX17Y31uXFwgMVxlbmR7YXJyYXl9XHJpZ2h0KXth
+fV57bn1cbWludXMgMXtifV57MX0rXG1hdGhybXsuLi59K1xsZWZ0KFxiZWdpbnthcnJheX17
+Y31uXFwgblxtaW51cyAxXGVuZHthcnJheX1ccmlnaHQpe2F9XnswfXtifV57bn0=
+</d>
+<d name="LatexMath23" base64="yes">
+IHtcbGVmdCgxK3hccmlnaHQpfV57bn09e1xzdW0gfV97cj0wfV57cn1cbGVmdChcYmVnaW57
+YXJyYXl9e2N9blxcIHJcZW5ke2FycmF5fVxyaWdodCl7eH1ee3J9PVxsZWZ0KFxiZWdpbnth
+cnJheX17Y31uXFwgMFxlbmR7YXJyYXl9XHJpZ2h0KXt4fV57MH0rXGxlZnQoXGJlZ2lue2Fy
+cmF5fXtjfW5cXCAxXGVuZHthcnJheX1ccmlnaHQpe3h9XnsxfStcbWF0aHJtey4uLn0rXGxl
+ZnQoXGJlZ2lue2FycmF5fXtjfW5cXCBuXG1pbnVzIDFcZW5ke2FycmF5fVxyaWdodCl7eH1e
+e259
+</d>
+<d name="LatexMath24" base64="yes">
+IHtcbGVmdCgxK3hccmlnaHQpfV57bn0=
+</d>
+<d name="LatexMath25" base64="yes">
+IFxsZWZ0KFxiZWdpbnthcnJheX17Y31uXFwgbVxlbmR7YXJyYXl9XHJpZ2h0KQ==
+</d>
+<d name="LatexMath26" base64="yes">
+IFxsZWZ0KFxiZWdpbnthcnJheX17Y31uXFwgMFxlbmR7YXJyYXl9XHJpZ2h0KStcbGVmdChc
+YmVnaW57YXJyYXl9e2N9blxcIDFcZW5ke2FycmF5fVxyaWdodCkrXGxlZnQoXGJlZ2lue2Fy
+cmF5fXtjfW5cXCAyXGVuZHthcnJheX1ccmlnaHQpK1xtYXRocm17Li4ufStcbGVmdChcYmVn
+aW57YXJyYXl9e2N9blxcIG5cbWludXMgMVxlbmR7YXJyYXl9XHJpZ2h0KT17Mn1ee259
+</d>
+<d name="LatexMath27" base64="yes">
+IFxsZWZ0KFxiZWdpbnthcnJheX17Y31uXFwgMFxlbmR7YXJyYXl9XHJpZ2h0KVxtaW51cyBc
+bGVmdChcYmVnaW57YXJyYXl9e2N9blxcIDFcZW5ke2FycmF5fVxyaWdodCkrXGxlZnQoXGJl
+Z2lue2FycmF5fXtjfW5cXCAyXGVuZHthcnJheX1ccmlnaHQpXG1pbnVzIFxtYXRocm17Li4u
+fSt7XGxlZnQoXG1pbnVzIDFccmlnaHQpfV57cn1cbGVmdChcYmVnaW57YXJyYXl9e2N9blxc
+IHJcZW5ke2FycmF5fVxyaWdodCkrXG1hdGhybXsuLi59PTA=
+</d>
+<d name="LatexMath28" base64="yes">
+IHtcbGVmdCgxK3hccmlnaHQpfV57aCttfT17XGxlZnQoMSt4XHJpZ2h0KX1ee2h9e1xsZWZ0
+KDEreFxyaWdodCl9XnttfQ==
+</d>
+<d name="LatexMath29" base64="yes">
+IFxsZWZ0KFxiZWdpbnthcnJheX17Y31tK2hcXCByXGVuZHthcnJheX1ccmlnaHQpPXtcc3Vt
+IH1fe2s9MH1ee2s9cn1cbGVmdChcYmVnaW57YXJyYXl9e2N9bVxcIGtcZW5ke2FycmF5fVxy
+aWdodClcbGVmdChcYmVnaW57YXJyYXl9e2N9aFxcIHJcbWludXMga1xlbmR7YXJyYXl9XHJp
+Z2h0KQ==
+</d>
+<d name="LatexMath3" base64="yes">
+IGY9XGxlZnQoXGJlZ2lue2FycmF5fXtjY2NjfXt0fV97MX0mIAl7dH1fezJ9JiAJXG1hdGhy
+bXsuLi59JiAJe3R9X3trfVxcIHtjfV97ZlxsZWZ0KHt0fV97aX1ccmlnaHQpfSYgCXtjfV97
+ZlxsZWZ0KHt0fV97an1ccmlnaHQpfSYgCVxtYXRocm17Li4ufSYgCXtjfV97ZlxsZWZ0KHt0
+fV97bH1ccmlnaHQpfVxlbmR7YXJyYXl9XHJpZ2h0KQ==
+</d>
+<d name="LatexMath30" base64="yes">
+IFxsZWZ0KFxiZWdpbnthcnJheX17Y31uXFwgclxlbmR7YXJyYXl9XHJpZ2h0KQ==
+</d>
+<d name="LatexMath31" base64="yes">
+IHtcbGVmdCgxK3hccmlnaHQpfV57bn09e1xzdW0gfV97cj0wfV57cn1cbGVmdChcYmVnaW57
+YXJyYXl9e2N9blxcIHJcZW5ke2FycmF5fVxyaWdodCl7eH1ee3J9PVxsZWZ0KFxiZWdpbnth
+cnJheX17Y31uXFwgMFxlbmR7YXJyYXl9XHJpZ2h0KXt4fV57MH0rXGxlZnQoXGJlZ2lue2Fy
+cmF5fXtjfW5cbWludXMgMVxcIDFcZW5ke2FycmF5fVxyaWdodCl7eH1eezF9K1xtYXRocm17
+Li4ufStcbGVmdChcYmVnaW57YXJyYXl9e2N9blxcIG5cbWludXMgMVxlbmR7YXJyYXl9XHJp
+Z2h0KXt4fV57bn0=
+</d>
+<d name="LatexMath32" base64="yes">
+IHg9e3h9XnsxfQ==
+</d>
+<d name="LatexMath33" base64="yes">
+IDE9e3h9XnswfQ==
+</d>
+<d name="LatexMath34" base64="yes">
+IHt4fV57cn0=
+</d>
+<d name="LatexMath35" base64="yes">
+IFxsZWZ0KDEreCt7eH1eezJ9XHJpZ2h0KQ==
+</d>
+<d name="LatexMath36" base64="yes">
+IFxsZWZ0KDEreCt7eH1eezJ9K3t4fV57M31ccmlnaHQp
+</d>
+<d name="LatexMath37" base64="yes">
+IFxsZWZ0KDEreCt7eH1eezJ9K3t4fV57M30re3h9Xns0fVxyaWdodCk=
+</d>
+<d name="LatexMath38" base64="yes">
+IFxsZWZ0KHgre3h9XnszfSt7eH1eezV9XHJpZ2h0KQ==
+</d>
+<d name="LatexMath39" base64="yes">
+IHt4fV57OH0=
+</d>
+<d name="LatexMath4" base64="yes">
+IFxsZWZ0KHtCfV57QX1ccmlnaHQpPXtcbGVmdChCXHJpZ2h0KX1ee1xsZWZ0KEFccmlnaHQp
+fT17bn1ee2t9
+</d>
+<d name="LatexMath40" base64="yes">
+IHt4fV57MTR9KzNcYXN0IHt4fV57MTN9KzdcYXN0IHt4fV57MTJ9KzEyXGFzdCB7eH1eezEx
+fSsxOFxhc3Qge3h9XnsxMH0rMjNcYXN0IHt4fV57OX0rMjZcYXN0IHt4fV57OH0rMjZcYXN0
+IHt4fV57N30rMjNcYXN0IHt4fV57Nn0rMThcYXN0IHt4fV57NX0rMTJcYXN0IHt4fV57NH0r
+N1xhc3Qge3h9XnszfSszXGFzdCB7eH1eezJ9K3g=
+</d>
+<d name="LatexMath5" base64="yes">
+JCB7Qn1ee2t9PVx1bmRlcnNldHtrXG1hdGhybXt2ZWNlc319e1x1bmRlcnNldHvvmJN9e0Jc
+dGltZXMgQlx0aW1lcyBCXHRpbWVzIFxtYXRocm17Li4ufVx0aW1lcyBCfQ==
+</d>
+<d name="LatexMath6" base64="yes">
+IHtCfV57a309XGxlZnQoXGxlZnQoe2N9X3t7Zn1fezF9fSx7Y31fe3tmfV97Mn19LHtjfV97
+e2Z9X3szfX0sXG1hdGhybXsuLi59LHtjfV97e2Z9X3trfX1ccmlnaHQpL1xsZWZ0KHtjfV97
+e2Z9X3tpfX1caW4gQlx3ZWRnZSAxXGxlIGlcbGUga1xyaWdodClccmlnaHQp
+</d>
+<d name="LatexMath7" base64="yes">
+IHtCfV57QX1ccmlnaHRhcnJvdyB7Qn1ee2t9
+</d>
+<d name="LatexMath8" base64="yes">
+IFxwaGkgXGxlZnQoZlxyaWdodCk9XGxlZnQoZlxsZWZ0KHt0fV97MX1ccmlnaHQpLFxtYXRo
+cm17Li4ufSxmXGxlZnQoe3R9X3trfVxyaWdodClccmlnaHQp
+</d>
+<d name="LatexMath9" base64="yes">
+IFxsZWZ0KHtCfV57QX1ccmlnaHQp
+</d>
+<d name="MathLatex0" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mi>f</math:mi><math:mo math:stretchy="false">∈</math:mo><math:msup><math:mi>B</math:mi><math:mi>A</math:mi></math:msup></math:mrow><math:annotation math:encoding="StarMath 5.0"> f in B^A </math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex1" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mi>A</math:mi><math:mo math:stretchy="false">=</math:mo><math:mfenced math:open="{" math:close="}"><math:mrow><math:msub><math:mi>t</math:mi><math:mn>1,</math:mn></math:msub><math:msub><math:mi>t</math:mi><math:mn>2,</math:mn></math:msub><math:mn>..</math:mn><math:mi>,</math:mi><math:msub><math:mi>t</math:mi><math:mi>k</math:mi></math:msub></math:mrow></math:mfenced></math:mrow><math:annotation math:encoding="StarMath 5.0">A = left lbrace t_1, t_2, .. , t_k right rbrace </math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex10" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mfenced math:open="∣" math:close="∣"><math:msup><math:mi>B</math:mi><math:mi>k</math:mi></math:msup></math:mfenced><math:annotation math:encoding="StarMath 5.0">abs{B^{k}}</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex11" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mtd><math:msub><math:mi>c</math:mi><math:mrow><math:mi>f</math:mi><math:mrow><math:mo math:stretchy="false">(</math:mo><math:msub><math:mi>t</math:mi><math:mi>i</math:mi></math:msub><math:mo math:stretchy="false">)</math:mo></math:mrow></math:mrow></math:msub></math:mtd><math:mtd><math:msub><math:mi>c</math:mi><math:mrow><math:mi>f</math:mi><math:mrow><math:mo math:stretchy="false">(</math:mo><math:msub><math:mi>t</math:mi><math:mi>j</math:mi></math:msub><math:mo math:stretchy="false">)</math:mo></math:mrow></math:mrow></math:msub></math:mtd><math:mtd><math:mn>...</math:mn></math:mtd><math:mtd><math:msub><math:mi>c</math:mi><math:mrow><math:mi>f</math:mi><math:mrow><math:mo math:stretchy="false">(</math:mo><math:msub><math:mi>t</math:mi><math:mi>l</math:mi></math:msub><math:mo math:stretchy="false">)</math:mo></math:mrow></math:mrow></math:msub></math:mtd></math:mtr></math:mtable></math:mfenced><math:annotation math:encoding="StarMath 5.0">left (  matrix{ c_{f(t_i)} # c_{f(t_j)} # ... # c_{f(t_l)}} right ) 
+</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex12" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mrow><math:mfenced math:open="∣" math:close="∣"><math:msup><math:mi>B</math:mi><math:mi>k</math:mi></math:msup></math:mfenced><math:mo math:stretchy="false">=</math:mo><math:munder><math:munder math:accent="true"><math:mrow><math:mrow><math:mrow><math:mrow><math:mi>n</math:mi><math:mo math:stretchy="false">∗</math:mo><math:mi>n</math:mi></math:mrow><math:mo math:stretchy="false">∗</math:mo><math:mi>n</math:mi></math:mrow><math:mo math:stretchy="false">∗</math:mo><math:mn>...</math:mn></math:mrow><math:mo math:stretchy="false">∗</math:mo><math:mi>n</math:mi></math:mrow><math:mo math:stretchy="false"></math:mo></math:munder><math:mrow><math:mi>k</math:mi><math:mi math:fontstyle="italic">veces</math:mi></math:mrow></math:munder></math:mrow><math:mo math:stretchy="false">=</math:mo><math:msup><math:mi>n</math:mi><math:mi>k</math:mi></math:msup></math:mrow><math:annotation math:encoding="StarMath 5.0">abs{B^{k}} = { n * n * n * ... * n} underbrace {k veces} = n^k</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex13" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:msup><math:mi>n</math:mi><math:mi>k</math:mi></math:msup><math:annotation math:encoding="StarMath 5.0">n^k</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex14" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mi>m</math:mi></math:mtr></math:mtable></math:mfenced><math:annotation math:encoding="StarMath 5.0">left ( binom{n}{m} right ) </math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex15" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mi>m</math:mi></math:mtr></math:mtable></math:mfenced><math:annotation math:encoding="StarMath 5.0">left ( binom{n}{m} right ) </math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex16" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mfrac><math:mrow><math:mi>n</math:mi><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mi>n</math:mi><math:mo math:stretchy="false">−</math:mo><math:mn>1</math:mn></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mi>n</math:mi><math:mo math:stretchy="false">−</math:mo><math:mn>2</math:mn></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:mn>...</math:mn><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mi>n</math:mi><math:mo math:stretchy="false">−</math:mo><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mi>m</math:mi><math:mo math:stretchy="false">−</math:mo><math:mn>1</math:mn></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow></math:mrow><math:mrow><math:mi>m</math:mi><math:mi>!</math:mi></math:mrow></math:mfrac><math:mo math:stretchy="false">=</math:mo><math:mfrac><math:mrow><math:mi>n</math:mi><math:mi>!</math:mi></math:mrow><math:mrow><math:mi>m</math:mi><math:mi>!</math:mi><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mi>n</math:mi><math:mo math:stretchy="false">−</math:mo><math:mi>m</math:mi></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:mi>!</math:mi></math:mrow></math:mfrac></math:mrow><math:annotation math:encoding="StarMath 5.0">{n (n-1)(n-2)...(n-(m-1))} over {m!} = {n!} over {m! (n-m)!}</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex17" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mi>m</math:mi></math:mtr></math:mtable></math:mfenced><math:mo math:stretchy="false">=</math:mo><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mrow><math:mi>n</math:mi><math:mo math:stretchy="false">−</math:mo><math:mi>m</math:mi></math:mrow></math:mtr></math:mtable></math:mfenced></math:mrow><math:annotation math:encoding="StarMath 5.0">left ( binom{n}{m} right ) = left ( binom{n}{n-m} right )</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex18" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mrow><math:msup><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mi>a</math:mi><math:mo math:stretchy="false">+</math:mo><math:mi>b</math:mi></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:mi>n</math:mi></math:msup><math:mo math:stretchy="false">=</math:mo><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mi>a</math:mi><math:mo math:stretchy="false">+</math:mo><math:mi>b</math:mi></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow></math:mrow><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mi>a</math:mi><math:mo math:stretchy="false">+</math:mo><math:mi>b</math:mi></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:mn>...</math:mn><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mi>a</math:mi><math:mo math:stretchy="false">+</math:mo><math:mi>b</math:mi></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow></math:mrow><math:annotation math:encoding="StarMath 5.0">(a+b)^n = (a+b)(a+b) ... (a+b)
+</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex19" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mfenced math:open="" math:close=""><math:mtable><math:mtr/><math:mtr/></math:mtable></math:mfenced><math:annotation math:encoding="StarMath 5.0">left ( binom{&lt;?&gt;}{&lt;?&gt;}  right ) </math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex2" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mi>B</math:mi><math:mo math:stretchy="false">=</math:mo><math:mfenced math:open="{" math:close="}"><math:mrow><math:msub><math:mi>c</math:mi><math:mn>1,</math:mn></math:msub><math:msub><math:mi>c</math:mi><math:mn>2,</math:mn></math:msub><math:mn>...</math:mn><math:mi>,</math:mi><math:msub><math:mi>c</math:mi><math:mi>n</math:mi></math:msub></math:mrow></math:mfenced></math:mrow><math:annotation math:encoding="StarMath 5.0">B = left lbrace c_1, c_2, ..., c_n right rbrace </math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex20" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:msup><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mi>a</math:mi><math:mo math:stretchy="false">+</math:mo><math:mi>b</math:mi></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:mi>n</math:mi></math:msup><math:annotation math:encoding="StarMath 5.0">(a+b)^n
+</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex21" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:msup><math:mi>a</math:mi><math:mrow><math:mi>n</math:mi><math:mo math:stretchy="false">−</math:mo><math:mi>r</math:mi></math:mrow></math:msup><math:msup><math:mi>b</math:mi><math:mi>r</math:mi></math:msup></math:mrow><math:annotation math:encoding="StarMath 5.0">a^{n-r} b^{r}
+</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex22" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mrow><math:msup><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mi>a</math:mi><math:mo math:stretchy="false">+</math:mo><math:mi>b</math:mi></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:mi>n</math:mi></math:msup><math:mo math:stretchy="false">=</math:mo><math:mrow><math:msubsup><math:mo math:stretchy="false">∑</math:mo><math:mrow><math:mi>r</math:mi><math:mo math:stretchy="false">=</math:mo><math:mn>0</math:mn></math:mrow><math:mi>r</math:mi></math:msubsup><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mi>r</math:mi></math:mtr></math:mtable></math:mfenced></math:mrow></math:mrow><math:msup><math:mi>a</math:mi><math:mrow><math:mi>n</math:mi><math:mo math:stretchy="false">−</math:mo><math:mi>r</math:mi></math:mrow></math:msup><math:mrow><math:msup><math:mi>b</math:mi><math:mi>r</math:mi></math:msup><math:mo math:stretchy="false">=</math:mo><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mn>0</math:mn></math:mtr></math:mtable></math:mfenced></math:mrow><math:msup><math:mi>a</math:mi><math:mi>n</math:mi></math:msup><math:mrow><math:msup><math:mi>b</math:mi><math:mn>0</math:mn></math:msup><math:mo math:stretchy="false">+</math:mo><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mn>1</math:mn></math:mtr></math:mtable></math:mfenced></math:mrow><math:mrow><math:msup><math:mi>a</math:mi><math:mi>n</math:mi></math:msup><math:mo math:stretchy="false">−</math:mo><math:mn>1</math:mn></math:mrow><math:mrow><math:mrow><math:msup><math:mi>b</math:mi><math:mn>1</math:mn></math:msup><math:mo math:stretchy="false">+</math:mo><math:mn>...</math:mn></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mrow><math:mi>n</math:mi><math:mo math:stretchy="false">−</math:mo><math:mn>1</math:mn></math:mrow></math:mtr></math:mtable></math:mfenced></math:mrow><math:msup><math:mi>a</math:mi><math:mn>0</math:mn></math:msup><math:msup><math:mi>b</math:mi><math:mi>n</math:mi></math:msup></math:mrow><math:annotation math:encoding="StarMath 5.0">(a+b)^n = sum_{r=0}^{r}left ( binom{n}{r} right )a^{n-r} b^{r} = left ( binom{n}{0} right )a^n b^0 + left ( binom{n}{1} right )a^n-1 b^1 + ... + left ( binom{n}{n-1} right )a^0 b^n
+</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex23" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mrow><math:msup><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mn>1</math:mn><math:mo math:stretchy="false">+</math:mo><math:mi>x</math:mi></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:mi>n</math:mi></math:msup><math:mo math:stretchy="false">=</math:mo><math:mrow><math:msubsup><math:mo math:stretchy="false">∑</math:mo><math:mrow><math:mi>r</math:mi><math:mo math:stretchy="false">=</math:mo><math:mn>0</math:mn></math:mrow><math:mi>r</math:mi></math:msubsup><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mi>r</math:mi></math:mtr></math:mtable></math:mfenced></math:mrow></math:mrow><math:mrow><math:msup><math:mi>x</math:mi><math:mi>r</math:mi></math:msup><math:mo math:stretchy="false">=</math:mo><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mn>0</math:mn></math:mtr></math:mtable></math:mfenced></math:mrow><math:mrow><math:msup><math:mi>x</math:mi><math:mn>0</math:mn></math:msup><math:mo math:stretchy="false">+</math:mo><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mn>1</math:mn></math:mtr></math:mtable></math:mfenced></math:mrow><math:mrow><math:mrow><math:msup><math:mi>x</math:mi><math:mn>1</math:mn></math:msup><math:mo math:stretchy="false">+</math:mo><math:mn>...</math:mn></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mrow><math:mi>n</math:mi><math:mo math:stretchy="false">−</math:mo><math:mn>1</math:mn></math:mrow></math:mtr></math:mtable></math:mfenced></math:mrow><math:msup><math:mi>x</math:mi><math:mi>n</math:mi></math:msup></math:mrow><math:annotation math:encoding="StarMath 5.0">(1+x)^n = sum_{r=0}^{r}left ( binom{n}{r} right )x^{r} = left ( binom{n}{0} right )x^0 + left ( binom{n}{1} right )x^1 + ... + left ( binom{n}{n-1} right )x^n
+</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex24" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:msup><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mn>1</math:mn><math:mo math:stretchy="false">+</math:mo><math:mi>x</math:mi></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:mi>n</math:mi></math:msup><math:annotation math:encoding="StarMath 5.0">(1+x)^n</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex25" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mi>m</math:mi></math:mtr></math:mtable></math:mfenced><math:annotation math:encoding="StarMath 5.0">left ( binom{n}{m} right ) </math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex26" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mrow><math:mrow><math:mrow><math:mrow><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mn>0</math:mn></math:mtr></math:mtable></math:mfenced><math:mo math:stretchy="false">+</math:mo><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mn>1</math:mn></math:mtr></math:mtable></math:mfenced></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mn>2</math:mn></math:mtr></math:mtable></math:mfenced></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mn>...</math:mn></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mrow><math:mi>n</math:mi><math:mo math:stretchy="false">−</math:mo><math:mn>1</math:mn></math:mrow></math:mtr></math:mtable></math:mfenced></math:mrow><math:mo math:stretchy="false">=</math:mo><math:msup><math:mn>2</math:mn><math:mi>n</math:mi></math:msup></math:mrow><math:annotation math:encoding="StarMath 5.0">left ( binom{n}{0} right ) +  left ( binom{n}{1} right ) + left ( binom{n}{2} right ) + ... + left ( binom{n}{n-1} right ) = 2^n</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex27" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mrow><math:mrow><math:mrow><math:mrow><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mn>0</math:mn></math:mtr></math:mtable></math:mfenced><math:mo math:stretchy="false">−</math:mo><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mn>1</math:mn></math:mtr></math:mtable></math:mfenced></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mn>2</math:mn></math:mtr></math:mtable></math:mfenced></math:mrow><math:mo math:stretchy="false">−</math:mo><math:mn>...</math:mn></math:mrow><math:mo math:stretchy="false">+</math:mo><math:msup><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mo math:stretchy="false">−</math:mo><math:mn>1</math:mn></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:mi>r</math:mi></math:msup></math:mrow><math:mrow><math:mrow><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mi>r</math:mi></math:mtr></math:mtable></math:mfenced><math:mo math:stretchy="false">+</math:mo><math:mn>...</math:mn></math:mrow><math:mo math:stretchy="false">=</math:mo><math:mn>0</math:mn></math:mrow></math:mrow><math:annotation math:encoding="StarMath 5.0">left ( binom{n}{0} right ) -  left ( binom{n}{1} right ) + left ( binom{n}{2} right ) - ... + (-1)^r left ( binom{n}{r} right ) + ...  = 0</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex28" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mrow><math:msup><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mn>1</math:mn><math:mo math:stretchy="false">+</math:mo><math:mi>x</math:mi></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:mrow><math:mi>h</math:mi><math:mo math:stretchy="false">+</math:mo><math:mi>m</math:mi></math:mrow></math:msup><math:mo math:stretchy="false">=</math:mo><math:msup><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mn>1</math:mn><math:mo math:stretchy="false">+</math:mo><math:mi>x</math:mi></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:mi>h</math:mi></math:msup></math:mrow><math:msup><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mn>1</math:mn><math:mo math:stretchy="false">+</math:mo><math:mi>x</math:mi></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:mi>m</math:mi></math:msup></math:mrow><math:annotation math:encoding="StarMath 5.0">(1+x)^{h+m} = (1+x)^{h}(1+x)^m</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex29" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mrow><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mrow><math:mi>m</math:mi><math:mo math:stretchy="false">+</math:mo><math:mi>h</math:mi></math:mrow></math:mtr><math:mtr><math:mi>r</math:mi></math:mtr></math:mtable></math:mfenced><math:mo math:stretchy="false">=</math:mo><math:mrow><math:msubsup><math:mo math:stretchy="false">∑</math:mo><math:mrow><math:mi>k</math:mi><math:mo math:stretchy="false">=</math:mo><math:mn>0</math:mn></math:mrow><math:mrow><math:mi>k</math:mi><math:mo math:stretchy="false">=</math:mo><math:mi>r</math:mi></math:mrow></math:msubsup><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>m</math:mi></math:mtr><math:mtr><math:mi>k</math:mi></math:mtr></math:mtable></math:mfenced></math:mrow></math:mrow><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>h</math:mi></math:mtr><math:mtr><math:mrow><math:mi>r</math:mi><math:mo math:stretchy="false">−</math:mo><math:mi>k</math:mi></math:mrow></math:mtr></math:mtable></math:mfenced></math:mrow><math:annotation math:encoding="StarMath 5.0">left ( binom{m+h}{r} right ) = sum_{k=0}^{k=r}  left ( binom{m}{k} right )  left ( binom{h}{r-k} right )</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex3" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mi>f</math:mi><math:mo math:stretchy="false">=</math:mo><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mtd><math:msub><math:mi>t</math:mi><math:mn>1</math:mn></math:msub></math:mtd><math:mtd><math:msub><math:mi>t</math:mi><math:mn>2</math:mn></math:msub></math:mtd><math:mtd><math:mn>...</math:mn></math:mtd><math:mtd><math:msub><math:mi>t</math:mi><math:mi>k</math:mi></math:msub></math:mtd></math:mtr><math:mtr><math:mtd><math:msub><math:mi>c</math:mi><math:mrow><math:mi>f</math:mi><math:mrow><math:mo math:stretchy="false">(</math:mo><math:msub><math:mi>t</math:mi><math:mi>i</math:mi></math:msub><math:mo math:stretchy="false">)</math:mo></math:mrow></math:mrow></math:msub></math:mtd><math:mtd><math:msub><math:mi>c</math:mi><math:mrow><math:mi>f</math:mi><math:mrow><math:mo math:stretchy="false">(</math:mo><math:msub><math:mi>t</math:mi><math:mi>j</math:mi></math:msub><math:mo math:stretchy="false">)</math:mo></math:mrow></math:mrow></math:msub></math:mtd><math:mtd><math:mn>...</math:mn></math:mtd><math:mtd><math:msub><math:mi>c</math:mi><math:mrow><math:mi>f</math:mi><math:mrow><math:mo math:stretchy="false">(</math:mo><math:msub><math:mi>t</math:mi><math:mi>l</math:mi></math:msub><math:mo math:stretchy="false">)</math:mo></math:mrow></math:mrow></math:msub></math:mtd></math:mtr></math:mtable></math:mfenced></math:mrow><math:annotation math:encoding="StarMath 5.0"> f = left (  matrix{ t_1 # t_2 # ... # t_k ## c_{f(t_i)} # c_{f(t_j)} # ... # c_{f(t_l)}} right ) 
+</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex30" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mi>r</math:mi></math:mtr></math:mtable></math:mfenced><math:annotation math:encoding="StarMath 5.0">left ( binom{n}{r} right ) </math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex31" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mrow><math:msup><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mn>1</math:mn><math:mo math:stretchy="false">+</math:mo><math:mi>x</math:mi></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:mi>n</math:mi></math:msup><math:mo math:stretchy="false">=</math:mo><math:mrow><math:msubsup><math:mo math:stretchy="false">∑</math:mo><math:mrow><math:mi>r</math:mi><math:mo math:stretchy="false">=</math:mo><math:mn>0</math:mn></math:mrow><math:mi>r</math:mi></math:msubsup><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mi>r</math:mi></math:mtr></math:mtable></math:mfenced></math:mrow></math:mrow><math:mrow><math:msup><math:mi>x</math:mi><math:mi>r</math:mi></math:msup><math:mo math:stretchy="false">=</math:mo><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mn>0</math:mn></math:mtr></math:mtable></math:mfenced></math:mrow><math:mrow><math:msup><math:mi>x</math:mi><math:mn>0</math:mn></math:msup><math:mo math:stretchy="false">+</math:mo><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mrow><math:mi>n</math:mi><math:mo math:stretchy="false">−</math:mo><math:mn>1</math:mn></math:mrow></math:mtr><math:mtr><math:mn>1</math:mn></math:mtr></math:mtable></math:mfenced></math:mrow><math:mrow><math:mrow><math:msup><math:mi>x</math:mi><math:mn>1</math:mn></math:msup><math:mo math:stretchy="false">+</math:mo><math:mn>...</math:mn></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mfenced math:open="" math:close=""><math:mtable><math:mtr><math:mi>n</math:mi></math:mtr><math:mtr><math:mrow><math:mi>n</math:mi><math:mo math:stretchy="false">−</math:mo><math:mn>1</math:mn></math:mrow></math:mtr></math:mtable></math:mfenced></math:mrow><math:msup><math:mi>x</math:mi><math:mi>n</math:mi></math:msup></math:mrow><math:annotation math:encoding="StarMath 5.0">(1+x)^n =  sum_{r=0}^{r}left ( binom{n}{r} right )x^{r} = left ( binom{n}{0} right )x^0 + left ( binom{n-1}{1} right )x^1 + ... + left ( binom{n}{n-1} right )x^n
+
+</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex32" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mi>x</math:mi><math:mo math:stretchy="false">=</math:mo><math:msup><math:mi>x</math:mi><math:mn>1</math:mn></math:msup></math:mrow><math:annotation math:encoding="StarMath 5.0">x=x^1</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex33" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mn>1</math:mn><math:mo math:stretchy="false">=</math:mo><math:msup><math:mi>x</math:mi><math:mn>0</math:mn></math:msup></math:mrow><math:annotation math:encoding="StarMath 5.0">1=x^0</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex34" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:msup><math:mi>x</math:mi><math:mi>r</math:mi></math:msup><math:annotation math:encoding="StarMath 5.0">x^r</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex35" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mrow><math:mn>1</math:mn><math:mo math:stretchy="false">+</math:mo><math:mi>x</math:mi></math:mrow><math:mo math:stretchy="false">+</math:mo><math:msup><math:mi>x</math:mi><math:mn>2</math:mn></math:msup></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:annotation math:encoding="StarMath 5.0">(1+x+x^2)</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex36" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mrow><math:mrow><math:mn>1</math:mn><math:mo math:stretchy="false">+</math:mo><math:mi>x</math:mi></math:mrow><math:mo math:stretchy="false">+</math:mo><math:msup><math:mi>x</math:mi><math:mn>2</math:mn></math:msup></math:mrow><math:mo math:stretchy="false">+</math:mo><math:msup><math:mi>x</math:mi><math:mn>3</math:mn></math:msup></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:annotation math:encoding="StarMath 5.0">(1+x+x^2+x^3)</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex37" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mrow><math:mrow><math:mrow><math:mn>1</math:mn><math:mo math:stretchy="false">+</math:mo><math:mi>x</math:mi></math:mrow><math:mo math:stretchy="false">+</math:mo><math:msup><math:mi>x</math:mi><math:mn>2</math:mn></math:msup></math:mrow><math:mo math:stretchy="false">+</math:mo><math:msup><math:mi>x</math:mi><math:mn>3</math:mn></math:msup></math:mrow><math:mo math:stretchy="false">+</math:mo><math:msup><math:mi>x</math:mi><math:mn>4</math:mn></math:msup></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:annotation math:encoding="StarMath 5.0">(1+x+x^2+x^3+x^4)</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex38" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mrow><math:mi>x</math:mi><math:mo math:stretchy="false">+</math:mo><math:msup><math:mi>x</math:mi><math:mn>3</math:mn></math:msup></math:mrow><math:mo math:stretchy="false">+</math:mo><math:msup><math:mi>x</math:mi><math:mn>5</math:mn></math:msup></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:annotation math:encoding="StarMath 5.0">(x+x^3+x^5)</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex39" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:msup><math:mi>x</math:mi><math:mn>8</math:mn></math:msup><math:annotation math:encoding="StarMath 5.0">x^8</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex4" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mrow><math:mfenced math:open="∣" math:close="∣"><math:msup><math:mi>B</math:mi><math:mi>A</math:mi></math:msup></math:mfenced><math:mo math:stretchy="false">=</math:mo><math:msup><math:mfenced math:open="∣" math:close="∣"><math:mi>B</math:mi></math:mfenced><math:mfenced math:open="∣" math:close="∣"><math:mi>A</math:mi></math:mfenced></math:msup></math:mrow><math:mo math:stretchy="false">=</math:mo><math:msup><math:mi>n</math:mi><math:mi>k</math:mi></math:msup></math:mrow><math:annotation math:encoding="StarMath 5.0">abs{B^{A}} = {abs{B}}^abs{A} = n^{k}</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex40" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mrow><math:mrow><math:mrow><math:mrow><math:mrow><math:mrow><math:mrow><math:mrow><math:mrow><math:mrow><math:mrow><math:mrow><math:msup><math:mi>x</math:mi><math:mn>14</math:mn></math:msup><math:mo math:stretchy="false">+</math:mo><math:mrow><math:mn>3</math:mn><math:mo math:stretchy="false">∗</math:mo><math:msup><math:mi>x</math:mi><math:mn>13</math:mn></math:msup></math:mrow></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mrow><math:mn>7</math:mn><math:mo math:stretchy="false">∗</math:mo><math:msup><math:mi>x</math:mi><math:mn>12</math:mn></math:msup></math:mrow></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mrow><math:mn>12</math:mn><math:mo math:stretchy="false">∗</math:mo><math:msup><math:mi>x</math:mi><math:mn>11</math:mn></math:msup></math:mrow></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mrow><math:mn>18</math:mn><math:mo math:stretchy="false">∗</math:mo><math:msup><math:mi>x</math:mi><math:mn>10</math:mn></math:msup></math:mrow></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mrow><math:mn>23</math:mn><math:mo math:stretchy="false">∗</math:mo><math:msup><math:mi>x</math:mi><math:mn>9</math:mn></math:msup></math:mrow></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mrow><math:mn>26</math:mn><math:mo math:stretchy="false">∗</math:mo><math:msup><math:mi>x</math:mi><math:mn>8</math:mn></math:msup></math:mrow></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mrow><math:mn>26</math:mn><math:mo math:stretchy="false">∗</math:mo><math:msup><math:mi>x</math:mi><math:mn>7</math:mn></math:msup></math:mrow></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mrow><math:mn>23</math:mn><math:mo math:stretchy="false">∗</math:mo><math:msup><math:mi>x</math:mi><math:mn>6</math:mn></math:msup></math:mrow></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mrow><math:mn>18</math:mn><math:mo math:stretchy="false">∗</math:mo><math:msup><math:mi>x</math:mi><math:mn>5</math:mn></math:msup></math:mrow></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mrow><math:mn>12</math:mn><math:mo math:stretchy="false">∗</math:mo><math:msup><math:mi>x</math:mi><math:mn>4</math:mn></math:msup></math:mrow></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mrow><math:mn>7</math:mn><math:mo math:stretchy="false">∗</math:mo><math:msup><math:mi>x</math:mi><math:mn>3</math:mn></math:msup></math:mrow></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mrow><math:mn>3</math:mn><math:mo math:stretchy="false">∗</math:mo><math:msup><math:mi>x</math:mi><math:mn>2</math:mn></math:msup></math:mrow></math:mrow><math:mo math:stretchy="false">+</math:mo><math:mi>x</math:mi></math:mrow><math:annotation math:encoding="StarMath 5.0">x^14+3*x^13+7*x^12+12*x^11+18*x^10+23*x^9+26*x^8+26*x^7+23*x^6+18*x^5+12*x^4+7*x^3+3*x^2+x</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex5" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:msup><math:mi>B</math:mi><math:mi>k</math:mi></math:msup><math:mo math:stretchy="false">=</math:mo><math:munder><math:munder math:accent="true"><math:mrow><math:mrow><math:mrow><math:mrow><math:mi>B</math:mi><math:mo math:stretchy="false">×</math:mo><math:mi>B</math:mi></math:mrow><math:mo math:stretchy="false">×</math:mo><math:mi>B</math:mi></math:mrow><math:mo math:stretchy="false">×</math:mo><math:mn>...</math:mn></math:mrow><math:mo math:stretchy="false">×</math:mo><math:mi>B</math:mi></math:mrow><math:mo math:stretchy="false"></math:mo></math:munder><math:mrow><math:mi>k</math:mi><math:mi math:fontstyle="italic">veces</math:mi></math:mrow></math:munder></math:mrow><math:annotation math:encoding="StarMath 5.0">B^{k} = { B times B times B times ... times B} underbrace {k veces} </math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex6" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:msup><math:mi>B</math:mi><math:mi>k</math:mi></math:msup><math:mo math:stretchy="false">=</math:mo><math:mfenced math:open="{" math:close="}"><math:mrow><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:msub><math:mi>c</math:mi><math:msub><math:mi>f</math:mi><math:mn>1</math:mn></math:msub></math:msub><math:mi>,</math:mi><math:msub><math:mi>c</math:mi><math:msub><math:mi>f</math:mi><math:mn>2</math:mn></math:msub></math:msub><math:mi>,</math:mi><math:msub><math:mi>c</math:mi><math:msub><math:mi>f</math:mi><math:mn>3</math:mn></math:msub></math:msub><math:mi>,</math:mi><math:mn>...</math:mn><math:mi>,</math:mi><math:msub><math:mi>c</math:mi><math:msub><math:mi>f</math:mi><math:mi>k</math:mi></math:msub></math:msub></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow><math:mo math:stretchy="false">/</math:mo><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mrow><math:mrow><math:msub><math:mi>c</math:mi><math:msub><math:mi>f</math:mi><math:mi>i</math:mi></math:msub></math:msub><math:mo math:stretchy="false">∈</math:mo><math:mrow><math:mi>B</math:mi><math:mo math:stretchy="false">∧</math:mo><math:mn>1</math:mn></math:mrow></math:mrow><math:mo math:stretchy="false">≤</math:mo><math:mi>i</math:mi></math:mrow><math:mo math:stretchy="false">≤</math:mo><math:mi>k</math:mi></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow></math:mrow></math:mfenced></math:mrow><math:annotation math:encoding="StarMath 5.0">B^{k} = left lbrace  (c_{f_1}, c_{f_2}, c_{f_3}, ..., c_{f_k}) slash  (c_{f_i} in B and 1 &lt;= i &lt;=k)  right rbrace </math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex7" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:msup><math:mi>B</math:mi><math:mi>A</math:mi></math:msup><math:mo math:stretchy="false">→</math:mo><math:msup><math:mi>B</math:mi><math:mi>k</math:mi></math:msup></math:mrow><math:annotation math:encoding="StarMath 5.0">B^A rightarrow B^k</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex8" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mrow><math:mi>φ</math:mi><math:mrow><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mi>f</math:mi><math:mo math:stretchy="false">)</math:mo></math:mrow><math:mo math:stretchy="false">=</math:mo><math:mrow><math:mo math:stretchy="false">(</math:mo><math:mrow><math:mi>f</math:mi><math:mrow><math:mo math:stretchy="false">(</math:mo><math:msub><math:mi>t</math:mi><math:mn>1</math:mn></math:msub><math:mo math:stretchy="false">)</math:mo></math:mrow><math:mi>,</math:mi><math:mn>...</math:mn><math:mi>,</math:mi><math:mi>f</math:mi><math:mrow><math:mo math:stretchy="false">(</math:mo><math:msub><math:mi>t</math:mi><math:mi>k</math:mi></math:msub><math:mo math:stretchy="false">)</math:mo></math:mrow></math:mrow><math:mo math:stretchy="false">)</math:mo></math:mrow></math:mrow></math:mrow><math:annotation math:encoding="StarMath 5.0">φ(f) = (f(t_1), ..., f(t_k))
+</math:annotation></math:semantics></math:math>]]>
+</d>
+<d name="MathLatex9" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:mfenced math:open="∣" math:close="∣"><math:msup><math:mi>B</math:mi><math:mi>A</math:mi></math:msup></math:mfenced><math:annotation math:encoding="StarMath 5.0">abs{B^{A}}</math:annotation></math:semantics></math:math>]]>
+</d>
+</data>
+</abiword>

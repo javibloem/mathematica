@@ -1,0 +1,17 @@
+<% include header %>
+
+<section>
+	<div class="text-center">
+		<h1 class="bree verde grande"> <%= title || "Mathematica" %> </h1>
+		<p class="bree gris"><%= subTitle || "Mathematica subtitle" %></p>
+
+	</div>
+	<div class="container">
+		<section>
+			
+			<% include fileRead %>
+		</section>
+	</div>
+</section>
+
+<% include footer %>

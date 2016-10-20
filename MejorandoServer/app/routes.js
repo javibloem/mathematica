@@ -1,52 +1,74 @@
 // app/routes.js
 var User = require('../app/models/user');
+var Content = require('../app/models/content');
 var recovery = require("../config/passwordRecoveryAccount");
+var allContents = []; 
+var mongo = require('mongodb');
 
 module.exports = function(app, passport, pengin, fs, nodemailer, async, crypto){
 
+
+
+  // Base para las lecciones
+  app.get('/lecciones/*', function(req, res) {
+    const path = require('path');
+    var fileRequired = path.basename(req.params[0]);
+      console.log(fileRequired)
+      res.render('base', {
+        request : req,
+        title : "Inducción Matemática:",
+        fileRead : fileRequired,
+        subTitle : "En la medida en que las leyes de las matemáticas se refieren a la realidad, no son exactas, y en tanto son exactas, no se refieren a la realidad.-Albert Einstein."
+        // console.log("error connecting" + e.message);
+      });
+  });
+
   // index
-  app.get('/', function(req, res) {
-    res.render('index');
+
+  app.get('/', isNotLogged, function(req, res) {
+    res.render('index',{
+      request : req,
+    });
   });
 
-  // login
-  app.get('/login', function(req, res) {
-    // renderea la pagina y le pasa un mensaje de error si lo hay
-    res.render('login', { message: req.flash('loginMessage') });
+  // Login GET & POST METHODS
+  app.get('/login', isNotLogged, function(req, res) {
+    res.render('login', {
+      request : req, 
+      message: req.flash('loginMessage') 
+    });
   });
 
-  // procesamiento del login o ingreso
-  app.post('/login', passport.authenticate('local-login', {
+  app.post('/login', isNotLogged,  passport.authenticate('local-login', {
     successRedirect : '/profile', // redirecciona al perfil si pasa
     failureRedirect : '/login', // redirecciona de vuelta si falla
     failureFlash : true // habilita mensajes de error
   }));
 
-  // signup
-  app.get('/signup', function(req, res) {
-    // render the page and pass in any flash data if it exists
-    res.render('signup', { message: req.flash('signupMessage') });
+  // Signup GET & POST METHODS
+  app.get('/signup', isNotLogged,  function(req, res) {
+    res.render('signup', { 
+      request : req, 
+      message: req.flash('signupMessage') 
+    });
   });
 
-  // procesamiento del signup o registro
-  app.post('/signup', passport.authenticate('local-signup', {
+  app.post('/signup', isNotLogged, passport.authenticate('local-signup', {
     successRedirect : '/profile', // redirecciona al perfil si pasa
     failureRedirect : '/signup', // redirecciona de vuelta si falla
     failureFlash : true
   }));
 
-  //olvido de contrasenia
-  app.get('/forgot', function(req, res) {
+  // Olvido contraseña GET & POST METHODS
+  app.get('/forgot', isNotLogged,  function(req, res) {
     res.render('forgot', {
+      request : req, 
       messages: req.flash(),
       user: req.user// obtiene el usuario de la sesión y lo pasa al template
     });
   });
 
-  //////////////////REVISARR ESTO/////////////////
-  //procesamiento para el envio del mail en la contrasenia
-  /* */
-    app.post('/forgot', function(req, res, next) {
+  app.post('/forgot', isNotLogged, function(req, res, next) {
     async.waterfall([
       function(done) {
         crypto.randomBytes(20, function(err, buf) {
@@ -144,19 +166,20 @@ module.exports = function(app, passport, pengin, fs, nodemailer, async, crypto){
   //RESET PASSWORD
   ////info extraida de :
   ///http://sahatyalkabov.com/how-to-implement-password-reset-in-nodejs/
-  app.get('/reset/:token', function(req, res) {
+  app.get('/reset/:token', isNotLogged,  function(req, res) {
     User.findOne({ "local.resetPasswordToken": req.params.token, "local.resetPasswordExpires": { $gt: Date.now() } }, function(err, user) {
       if (!user) {
         req.flash('error', 'Password reset token is invalid or has expired.');
         return res.redirect('/forgot');
       }
       res.render('reset', {
+        request : req, 
         user: user
       });
     });
   });
 
-  app.post('/reset/:token', function(req, res) {
+  app.post('/reset/:token', isNotLogged,  function(req, res) {
     if (req.body.password != req.body.confirm){
       req.flash('error','Contraseñas no coinciden');
       res.redirect('/');
@@ -183,9 +206,20 @@ module.exports = function(app, passport, pengin, fs, nodemailer, async, crypto){
 
   });
 
+  // home
+  app.get('/home', function(req, res) {
+    res.render('home', {
+      request : req,
+      question: 'Nothing',
+      answer: 'undefined',
+      answerObject: 'undefined'
+    });
+  });
+
   // profile
   app.get('/profile', isLoggedIn, function(req, res) {
     res.render('profile', {
+      request : req,
       user : req.user, // obtiene el usuario de la sesión y lo pasa al template
       question: 'Nothing',
       answer: 'undefined',
@@ -197,14 +231,15 @@ module.exports = function(app, passport, pengin, fs, nodemailer, async, crypto){
   app.post('/profile', isLoggedIn, function(req,res){
 
     //si existe una pregunta
-    if(req.body.inputToProlog.length > 0 &&  (req.body.inputToProlog.search('X') != (-1))){
+    if((1 == 1) || (req.body.inputToProlog.length > 0 &&  (req.body.inputToProlog.search('X') != (-1)))){
       //
-      var readStream = fs.readFileSync("./prolog/0000.pl", 'utf8');
+      var readStream = fs.readFileSync("./prolog/0000.pl", 'utf8'); 
+      // var readStream = fs.readFileSync("./prolog/buscador.pl", 'utf8');
 
-      console.log('inputToProlog');
+      console.log('inputToProlog D');
       //creando objeto pengine
       var m = new pengin({
-            server: "http://localhost:10001/pengine",
+            server: "http://localhost:3030/pengine",
             sourceText: readStream,
             format: "json",
             chunk: 50,
@@ -218,6 +253,7 @@ module.exports = function(app, passport, pengin, fs, nodemailer, async, crypto){
 
             if(typeof item == "string") {
               res.render('profile', {
+                request : req,
                 user : req.user,  // obtiene el usuario de la sesión y lo pasa al template
                 question: req.body.inputToProlog,
                 answer: "X = " + item,
@@ -227,6 +263,7 @@ module.exports = function(app, passport, pengin, fs, nodemailer, async, crypto){
           else {
             var resu = printResult(item);
             res.render('profile', {
+                        request : req,
                         user : req.user,  // obtiene el usuario de la sesión y lo pasa al template
                         question: req.body.inputToProlog,
                         answer: "X = [" + resu.substring(1, resu.length-1) + "]",
@@ -239,6 +276,7 @@ module.exports = function(app, passport, pengin, fs, nodemailer, async, crypto){
 
                       console.log(error.data);
                         res.render('profile', {
+                          request : req,
                           user : req.user,  // obtiene el usuario de la sesión y lo pasa al template
                           question: req.body.inputToProlog,
                           answer: error.data
@@ -272,6 +310,7 @@ module.exports = function(app, passport, pengin, fs, nodemailer, async, crypto){
     //si no hay pregunta
     }else{
       res.render('profile', {
+      request : req,
       user : req.user, // obtiene el usuario de la sesión y lo pasa al template
       question: req.body.inputToProlog,
       answer: 'escriba algo!, quizas no hallas colocado la X, LOL...!! :V',
@@ -281,16 +320,18 @@ module.exports = function(app, passport, pengin, fs, nodemailer, async, crypto){
 
   });
 
-  // lecciones
-  app.get('/lecciones', isLoggedIn, function(req, res) {
-    res.render('lecciones', {
-      user : req.user, // obtiene el usuario de la sesión y lo pasa al template
-    });
-  });
+  // // lecciones
+  // app.get('/lecciones', isLoggedIn, function(req, res) {
+  //   res.render('lecciones', {
+  //     request : req, 
+  //     user : req.user, // obtiene el usuario de la sesión y lo pasa al template
+  //   });
+  // });
 
   // ejercicios induccion
   app.get('/ejercicios/induccion', isLoggedIn, function(req, res) {
     res.render('ejeInduc', {
+      request : req, 
       user : req.user, // obtiene el usuario de la sesión y lo pasa al template
     });
   });
@@ -298,28 +339,139 @@ module.exports = function(app, passport, pengin, fs, nodemailer, async, crypto){
   // ejercicios combinatoria
   app.get('/ejercicios/combinatoria', isLoggedIn, function(req, res) {
     res.render('ejeComb', {
+      request : req, 
       user : req.user, // obtiene el usuario de la sesión y lo pasa al template
     });
   });
 
   // lecciones induccion
-  app.get('/lecciones/induccion', isLoggedIn, function(req, res) {
-    res.render('induccion', {
-      user : req.user, // obtiene el usuario de la sesión y lo pasa al template
-    });
-  });
+  // app.get('/lecciones/induccion', isLoggedIn, function(req, res) {
+  //   res.render('induccion', {
+  //     request : req, 
+  //     user : req.user, // obtiene el usuario de la sesión y lo pasa al template
+  //   });
+  // });
 
-  // lecciones combinatoria
-  app.get('/lecciones/combinatoria', isLoggedIn, function(req, res) {
-    res.render('combinatoria', {
-      user : req.user, // obtiene el usuario de la sesión y lo pasa al template
-    });
-  });
+  // // lecciones combinatoria
+  // app.get('/lecciones/combinatoria', isLoggedIn, function(req, res) {
+  //   res.render('combinatoria', {
+  //     request : req, 
+  //     user : req.user, // obtiene el usuario de la sesión y lo pasa al template
+  //   });
+  // });
 
   // logout
   app.get('/logout', function(req, res) {
     req.logout();
     res.redirect('/');
+  });
+
+
+
+
+
+
+
+
+
+
+
+  // Begin the admin area
+
+  // app.get("/admin/", isLoggedIn, function(req, res){
+  app.get("/admin", function(req, res){
+    Content.find({}, function(err, content) {
+      if (err) throw err;
+
+        // object of all the users
+      // console.log("The contents");
+      allContents = content;
+      // console.log(allContents);
+
+      console.log("The all contents are be");
+      console.log(allContents);
+
+      res.render('admin-panel',{
+        request : req, 
+        title: "",
+        edit : false,
+        subTitle : "",
+        textContent: "",
+        contents : content
+      });
+      // return allContents;
+    });
+  });
+
+  app.get("/admin/edit/*", function(req, res){
+
+    var theidID = req.params[0];
+    var o_id = new mongo.ObjectID(theidID);
+    Content.find({_id : theidID}, function(err, content) {
+      if (err) throw err;
+
+        // object of all the users
+      console.log("The contents");
+      console.log(content);
+      // allContents = content;
+      // return allContents;
+      content = !content.length ? {title : "", subTitle: "", textContent: ""} : content;
+      res.render('admin-panel',{
+        request : req,
+        edit : true,
+        title: content[0].title,
+        subTitle : content[0].subTitle,
+        textContent: content[0].textContent,  
+        contents : content
+      });
+    
+
+    });
+
+
+  });
+
+  app.get("/admin/leccion/*", function(req, res){
+
+    var theidID = req.params[0];
+    var o_id = new mongo.ObjectID(theidID);
+    Content.find({_id : theidID}, function(err, content) {
+      if (err) throw err;
+
+        // object of all the users
+      console.log("The contents");
+      console.log(content);
+      allContents = content;
+      res.render('admin-panel',{
+        request : req, 
+        title: "",
+        subTitle : "",
+        textContent: "",
+        contents : content
+      });
+      // return allContents;
+    });
+
+
+  });
+    
+
+  app.post("/admin/createContent", function(req, res){
+
+    var newContent = Content({
+      textContent: req.body.textContent,
+      title: req.body.title,
+      subTitle : req.body.subtitle,
+      user: "admin"
+    });
+
+    newContent.save(function(err) {
+      if (err) throw err;
+
+      console.log('Content created!');
+      res.redirect('/admin');
+
+    });
   });
   // función que revisa si el usuario esta autenticado
   function isLoggedIn(req, res, next) {
@@ -331,4 +483,22 @@ module.exports = function(app, passport, pengin, fs, nodemailer, async, crypto){
     // si no redireccione a la pagina principal
     res.redirect('/');
   }
+  function isNotLogged(req, res, next) {
+
+    // si esta autenticado siga
+    if (!req.isAuthenticated())
+    return next();
+
+    // si no redireccione a la pagina principal
+    res.redirect('/home');
+  }
+
+  app.use(function(err, req, res, next) {
+    console.error(err.stack);
+    // res.status(500).send('Something broke!');
+    res.render('error', {
+      request : req, 
+      user : req.user, // obtiene el usuario de la sesión y lo pasa al template
+    });
+  });
 };
